@@ -1,0 +1,6403 @@
+/*!
+ * Bootstrap v3.3.2 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+
+#cale #cale article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block
+}
+
+#cale audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+#cale audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+#cale [hidden], template {
+    display: none
+}
+
+#cale a {
+    background-color: transparent
+}
+
+#cale a:active, a:hover {
+    outline: 0
+}
+
+#cale abbr[title] {
+    border-bottom: 1px dotted
+}
+
+#cale b, strong {
+    font-weight: 700
+}
+
+#cale dfn {
+    font-style: italic
+}
+
+#cale h1 {
+    margin: .67em 0;
+    font-size: 2em
+}
+
+#cale mark {
+    color: #000;
+    background: #ff0
+}
+
+#cale small {
+    font-size: 80%
+}
+
+#cale sub, sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline
+}
+
+#cale sup {
+    top: -.5em
+}
+
+#cale sub {
+    bottom: -.25em
+}
+
+#cale img {
+    border: 0
+}
+
+#cale svg:not(:root) {
+    overflow: hidden
+}
+
+#cale figure {
+    margin: 1em 40px
+}
+
+#cale hr {
+    height: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+#cale pre {
+    overflow: auto
+}
+
+#cale code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+
+
+#cale input {
+    line-height: normal
+}
+
+#cale input[type=checkbox], input[type=radio] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+
+#cale input[type=search] {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-appearance: textfield
+}
+
+
+#cale fieldset {
+    padding: .35em .625em .75em;
+    margin: 0 2px;
+    border: 1px solid silver
+}
+
+#cale legend {
+    padding: 0;
+    border: 0
+}
+
+#cale textarea {
+    overflow: auto
+}
+
+#cale optgroup {
+    font-weight: 700
+}
+
+#cale table {
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+#cale td, th {
+    padding: 0
+}
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+#cale @media print {
+#cale     *, :after, :before {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: 0 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important
+    }
+
+#cale     a, a:visited {
+        text-decoration: underline
+    }
+
+#cale     a[href]:after {
+
+    }
+
+#cale     abbr[title]:after {
+
+    }
+
+#cale     a[href^="javascript:"]:after, a[href^="#"]:after {
+
+    }
+
+#cale     blockquote, pre {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+
+#cale     thead {
+        display: table-header-group
+    }
+
+#cale     img, tr {
+        page-break-inside: avoid
+    }
+
+#cale     img {
+        max-width: 100% !important
+    }
+
+#cale     h2, h3, p {
+        orphans: 3;
+        widows: 3
+    }
+
+#cale     h2, h3 {
+        page-break-after: avoid
+    }
+
+#cale     select {
+        background: #fff !important
+    }
+
+#cale     .navbar {
+        display: none
+    }
+
+#cale     .btn > .caret, .dropup > .btn > .caret {
+        border-top-color: #000 !important
+    }
+
+#cale     .label {
+        border: 1px solid #000
+    }
+
+#cale     .table {
+        border-collapse: collapse !important
+    }
+
+#cale     .table td, .table th {
+        background-color: #fff !important
+    }
+
+#cale     .table-bordered td, .table-bordered th {
+        border: 1px solid #ddd !important
+    }
+}
+
+#cale @font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(../fonts/glyphicons-halflings-regular.eot);
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+}
+
+#cale .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+#cale .glyphicon-asterisk:before {
+
+}
+
+#cale .glyphicon-plus:before {
+
+}
+
+#cale .glyphicon-eur:before, .glyphicon-euro:before {
+
+}
+
+#cale .glyphicon-minus:before {
+
+}
+
+#cale .glyphicon-cloud:before {
+
+}
+
+#cale .glyphicon-envelope:before {
+
+}
+
+#cale .glyphicon-pencil:before {
+
+}
+
+#cale .glyphicon-glass:before {
+
+}
+
+#cale .glyphicon-music:before {
+
+}
+
+#cale .glyphicon-search:before {
+
+}
+
+#cale .glyphicon-heart:before {
+
+}
+
+#cale .glyphicon-star:before {
+
+}
+
+#cale .glyphicon-star-empty:before {
+
+}
+
+#cale .glyphicon-user:before {
+
+}
+
+#cale .glyphicon-film:before {
+
+}
+
+#cale .glyphicon-th-large:before {
+
+}
+
+#cale .glyphicon-th:before {
+
+}
+
+#cale .glyphicon-th-list:before {
+
+}
+
+#cale .glyphicon-ok:before {
+
+}
+
+#cale .glyphicon-remove:before {
+
+}
+
+#cale .glyphicon-zoom-in:before {
+
+}
+
+#cale .glyphicon-zoom-out:before {
+
+}
+
+#cale .glyphicon-off:before {
+
+}
+
+#cale .glyphicon-signal:before {
+
+}
+
+#cale .glyphicon-cog:before {
+
+}
+
+#cale .glyphicon-trash:before {
+
+}
+
+#cale .glyphicon-home:before {
+
+}
+
+#cale .glyphicon-file:before {
+
+}
+
+#cale .glyphicon-time:before {
+
+}
+
+#cale .glyphicon-road:before {
+
+}
+
+#cale .glyphicon-download-alt:before {
+
+}
+
+#cale .glyphicon-download:before {
+
+}
+
+#cale .glyphicon-upload:before {
+
+}
+
+#cale .glyphicon-inbox:before {
+
+}
+
+#cale .glyphicon-play-circle:before {
+
+}
+
+#cale .glyphicon-repeat:before {
+
+}
+
+#cale .glyphicon-refresh:before {
+
+}
+
+#cale .glyphicon-list-alt:before {
+
+}
+
+#cale .glyphicon-lock:before {
+
+}
+
+#cale .glyphicon-flag:before {
+
+}
+
+#cale .glyphicon-headphones:before {
+
+}
+
+#cale .glyphicon-volume-off:before {
+
+}
+
+#cale .glyphicon-volume-down:before {
+
+}
+
+#cale .glyphicon-volume-up:before {
+
+}
+
+#cale .glyphicon-qrcode:before {
+
+}
+
+#cale .glyphicon-barcode:before {
+
+}
+
+#cale .glyphicon-tag:before {
+
+}
+
+#cale .glyphicon-tags:before {
+
+}
+
+#cale .glyphicon-book:before {
+
+}
+
+#cale .glyphicon-bookmark:before {
+
+}
+
+#cale .glyphicon-print:before {
+
+}
+
+#cale .glyphicon-camera:before {
+
+}
+
+#cale .glyphicon-font:before {
+
+}
+
+#cale .glyphicon-bold:before {
+
+}
+
+#cale .glyphicon-italic:before {
+
+}
+
+#cale .glyphicon-text-height:before {
+
+}
+
+#cale .glyphicon-text-width:before {
+
+}
+
+#cale .glyphicon-align-left:before {
+
+}
+
+#cale .glyphicon-align-center:before {
+
+}
+
+#cale .glyphicon-align-right:before {
+
+}
+
+#cale .glyphicon-align-justify:before {
+
+}
+
+#cale .glyphicon-list:before {
+
+}
+
+#cale .glyphicon-indent-left:before {
+
+}
+
+#cale .glyphicon-indent-right:before {
+
+}
+
+#cale .glyphicon-facetime-video:before {
+
+}
+
+#cale .glyphicon-picture:before {
+
+}
+
+#cale .glyphicon-map-marker:before {
+
+}
+
+#cale .glyphicon-adjust:before {
+
+}
+
+#cale .glyphicon-tint:before {
+
+}
+
+#cale .glyphicon-edit:before {
+
+}
+
+#cale .glyphicon-share:before {
+
+}
+
+#cale .glyphicon-check:before {
+
+}
+
+#cale .glyphicon-move:before {
+
+}
+
+#cale .glyphicon-step-backward:before {
+
+}
+
+#cale .glyphicon-fast-backward:before {
+
+}
+
+#cale .glyphicon-backward:before {
+
+}
+
+#cale .glyphicon-play:before {
+
+}
+
+#cale .glyphicon-pause:before {
+
+}
+
+#cale .glyphicon-stop:before {
+
+}
+
+#cale .glyphicon-forward:before {
+
+}
+
+#cale .glyphicon-fast-forward:before {
+
+}
+
+#cale .glyphicon-step-forward:before {
+
+}
+
+#cale .glyphicon-eject:before {
+
+}
+
+#cale .glyphicon-chevron-left:before {
+
+}
+
+#cale .glyphicon-chevron-right:before {
+
+}
+
+#cale .glyphicon-plus-sign:before {
+
+}
+
+#cale .glyphicon-minus-sign:before {
+
+}
+
+#cale .glyphicon-remove-sign:before {
+
+}
+
+#cale .glyphicon-ok-sign:before {
+
+}
+
+#cale .glyphicon-question-sign:before {
+
+}
+
+#cale .glyphicon-info-sign:before {
+
+}
+
+#cale .glyphicon-screenshot:before {
+
+}
+
+#cale .glyphicon-remove-circle:before {
+
+}
+
+#cale .glyphicon-ok-circle:before {
+
+}
+
+#cale .glyphicon-ban-circle:before {
+
+}
+
+#cale .glyphicon-arrow-left:before {
+
+}
+
+#cale .glyphicon-arrow-right:before {
+
+}
+
+#cale .glyphicon-arrow-up:before {
+
+}
+
+#cale .glyphicon-arrow-down:before {
+
+}
+
+#cale .glyphicon-share-alt:before {
+
+}
+
+#cale .glyphicon-resize-full:before {
+
+}
+
+#cale .glyphicon-resize-small:before {
+
+}
+
+#cale .glyphicon-exclamation-sign:before {
+
+}
+
+#cale .glyphicon-gift:before {
+
+}
+
+#cale .glyphicon-leaf:before {
+
+}
+
+#cale .glyphicon-fire:before {
+
+}
+
+#cale .glyphicon-eye-open:before {
+
+}
+
+#cale .glyphicon-eye-close:before {
+
+}
+
+#cale .glyphicon-warning-sign:before {
+
+}
+
+#cale .glyphicon-plane:before {
+
+}
+
+#cale .glyphicon-calendar:before {
+
+}
+
+#cale .glyphicon-random:before {
+
+}
+
+#cale .glyphicon-comment:before {
+
+}
+
+#cale .glyphicon-magnet:before {
+
+}
+
+#cale .glyphicon-chevron-up:before {
+
+}
+
+#cale .glyphicon-chevron-down:before {
+
+}
+
+#cale .glyphicon-retweet:before {
+
+}
+
+#cale .glyphicon-shopping-cart:before {
+
+}
+
+#cale .glyphicon-folder-close:before {
+
+}
+
+#cale .glyphicon-folder-open:before {
+
+}
+
+#cale .glyphicon-resize-vertical:before {
+
+}
+
+#cale .glyphicon-resize-horizontal:before {
+
+}
+
+#cale .glyphicon-hdd:before {
+
+}
+
+#cale .glyphicon-bullhorn:before {
+
+}
+
+#cale .glyphicon-bell:before {
+
+}
+
+#cale .glyphicon-certificate:before {
+
+}
+
+#cale .glyphicon-thumbs-up:before {
+
+}
+
+#cale .glyphicon-thumbs-down:before {
+
+}
+
+#cale .glyphicon-hand-right:before {
+
+}
+
+#cale .glyphicon-hand-left:before {
+
+}
+
+#cale .glyphicon-hand-up:before {
+
+}
+
+#cale .glyphicon-hand-down:before {
+
+}
+
+#cale .glyphicon-circle-arrow-right:before {
+
+}
+
+#cale .glyphicon-circle-arrow-left:before {
+
+}
+
+#cale .glyphicon-circle-arrow-up:before {
+
+}
+
+#cale .glyphicon-circle-arrow-down:before {
+
+}
+
+#cale .glyphicon-globe:before {
+
+}
+
+#cale .glyphicon-wrench:before {
+
+}
+
+#cale .glyphicon-tasks:before {
+
+}
+
+#cale .glyphicon-filter:before {
+
+}
+
+#cale .glyphicon-briefcase:before {
+
+}
+
+#cale .glyphicon-fullscreen:before {
+
+}
+
+#cale .glyphicon-dashboard:before {
+
+}
+
+#cale .glyphicon-paperclip:before {
+
+}
+
+#cale .glyphicon-heart-empty:before {
+
+}
+
+#cale .glyphicon-link:before {
+
+}
+
+#cale .glyphicon-phone:before {
+
+}
+
+#cale .glyphicon-pushpin:before {
+
+}
+
+#cale .glyphicon-usd:before {
+
+}
+
+#cale .glyphicon-gbp:before {
+
+}
+
+#cale .glyphicon-sort:before {
+
+}
+
+#cale .glyphicon-sort-by-alphabet:before {
+
+}
+
+#cale .glyphicon-sort-by-alphabet-alt:before {
+
+}
+
+#cale .glyphicon-sort-by-order:before {
+
+}
+
+#cale .glyphicon-sort-by-order-alt:before {
+
+}
+
+#cale .glyphicon-sort-by-attributes:before {
+
+}
+
+#cale .glyphicon-sort-by-attributes-alt:before {
+
+}
+
+#cale .glyphicon-unchecked:before {
+
+}
+
+#cale .glyphicon-expand:before {
+
+}
+
+#cale .glyphicon-collapse-down:before {
+
+}
+
+#cale .glyphicon-collapse-up:before {
+
+}
+
+#cale .glyphicon-log-in:before {
+
+}
+
+#cale .glyphicon-flash:before {
+
+}
+
+#cale .glyphicon-log-out:before {
+
+}
+
+#cale .glyphicon-new-window:before {
+
+}
+
+#cale .glyphicon-record:before {
+
+}
+
+#cale .glyphicon-save:before {
+
+}
+
+#cale .glyphicon-open:before {
+
+}
+
+#cale .glyphicon-saved:before {
+
+}
+
+#cale .glyphicon-import:before {
+
+}
+
+#cale .glyphicon-export:before {
+
+}
+
+#cale .glyphicon-send:before {
+
+}
+
+#cale .glyphicon-floppy-disk:before {
+
+}
+
+#cale .glyphicon-floppy-saved:before {
+
+}
+
+#cale .glyphicon-floppy-remove:before {
+
+}
+
+#cale .glyphicon-floppy-save:before {
+
+}
+
+#cale .glyphicon-floppy-open:before {
+
+}
+
+#cale .glyphicon-credit-card:before {
+
+}
+
+#cale .glyphicon-transfer:before {
+
+}
+
+#cale .glyphicon-cutlery:before {
+
+}
+
+#cale .glyphicon-header:before {
+
+}
+
+#cale .glyphicon-compressed:before {
+
+}
+
+#cale .glyphicon-earphone:before {
+
+}
+
+#cale .glyphicon-phone-alt:before {
+
+}
+
+#cale .glyphicon-tower:before {
+
+}
+
+#cale .glyphicon-stats:before {
+
+}
+
+#cale .glyphicon-sd-video:before {
+
+}
+
+#cale .glyphicon-hd-video:before {
+
+}
+
+#cale .glyphicon-subtitles:before {
+
+}
+
+#cale .glyphicon-sound-stereo:before {
+
+}
+
+#cale .glyphicon-sound-dolby:before {
+
+}
+
+#cale .glyphicon-sound-5-1:before {
+
+}
+
+#cale .glyphicon-sound-6-1:before {
+
+}
+
+#cale .glyphicon-sound-7-1:before {
+
+}
+
+#cale .glyphicon-copyright-mark:before {
+
+}
+
+#cale .glyphicon-registration-mark:before {
+
+}
+
+#cale .glyphicon-cloud-download:before {
+
+}
+
+#cale .glyphicon-cloud-upload:before {
+
+}
+
+#cale .glyphicon-tree-conifer:before {
+
+}
+
+#cale .glyphicon-tree-deciduous:before {
+
+}
+
+#cale .glyphicon-cd:before {
+
+}
+
+#cale .glyphicon-save-file:before {
+
+}
+
+#cale .glyphicon-open-file:before {
+
+}
+
+#cale .glyphicon-level-up:before {
+
+}
+
+#cale .glyphicon-copy:before {
+
+}
+
+#cale .glyphicon-paste:before {
+
+}
+
+#cale .glyphicon-alert:before {
+
+}
+
+#cale .glyphicon-equalizer:before {
+
+}
+
+#cale .glyphicon-king:before {
+
+}
+
+#cale .glyphicon-queen:before {
+
+}
+
+#cale .glyphicon-pawn:before {
+
+}
+
+#cale .glyphicon-bishop:before {
+
+}
+
+#cale .glyphicon-knight:before {
+
+}
+
+#cale .glyphicon-baby-formula:before {
+
+}
+
+#cale .glyphicon-tent:before {
+
+}
+
+#cale .glyphicon-blackboard:before {
+
+}
+
+#cale .glyphicon-bed:before {
+
+}
+
+#cale .glyphicon-apple:before {
+
+}
+
+#cale .glyphicon-erase:before {
+
+}
+
+#cale .glyphicon-hourglass:before {
+
+}
+
+#cale .glyphicon-lamp:before {
+
+}
+
+#cale .glyphicon-duplicate:before {
+
+}
+
+#cale .glyphicon-piggy-bank:before {
+
+}
+
+#cale .glyphicon-scissors:before {
+
+}
+
+#cale .glyphicon-bitcoin:before {
+
+}
+
+#cale .glyphicon-yen:before {
+
+}
+
+#cale .glyphicon-ruble:before {
+
+}
+
+#cale .glyphicon-scale:before {
+
+}
+
+#cale .glyphicon-ice-lolly:before {
+
+}
+
+#cale .glyphicon-ice-lolly-tasted:before {
+
+}
+
+#cale .glyphicon-education:before {
+
+}
+
+#cale .glyphicon-option-horizontal:before {
+
+}
+
+#cale .glyphicon-option-vertical:before {
+
+}
+
+#cale .glyphicon-menu-hamburger:before {
+
+}
+
+#cale .glyphicon-modal-window:before {
+
+}
+
+#cale .glyphicon-oil:before {
+
+}
+
+#cale .glyphicon-grain:before {
+
+}
+
+#cale .glyphicon-sunglasses:before {
+
+}
+
+#cale .glyphicon-text-size:before {
+
+}
+
+#cale .glyphicon-text-color:before {
+
+}
+
+#cale .glyphicon-text-background:before {
+
+}
+
+#cale .glyphicon-object-align-top:before {
+
+}
+
+#cale .glyphicon-object-align-bottom:before {
+
+}
+
+#cale .glyphicon-object-align-horizontal:before {
+
+}
+
+#cale .glyphicon-object-align-left:before {
+
+}
+
+#cale .glyphicon-object-align-vertical:before {
+
+}
+
+#cale .glyphicon-object-align-right:before {
+
+}
+
+#cale .glyphicon-triangle-right:before {
+
+}
+
+#cale .glyphicon-triangle-left:before {
+
+}
+
+#cale .glyphicon-triangle-bottom:before {
+
+}
+
+#cale .glyphicon-triangle-top:before {
+
+}
+
+#cale .glyphicon-console:before {
+
+}
+
+#cale .glyphicon-superscript:before {
+
+}
+
+#cale .glyphicon-subscript:before {
+
+}
+
+#cale .glyphicon-menu-left:before {
+
+}
+
+#cale .glyphicon-menu-right:before {
+
+}
+
+#cale .glyphicon-menu-down:before {
+
+}
+
+#cale .glyphicon-menu-up:before {
+
+}
+
+#cale * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#cale html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+#cale body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+
+    background-color: #fff
+}
+
+
+#cale a {
+    color: #337ab7;
+    text-decoration: none
+}
+
+#cale a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline
+}
+
+#cale a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+#cale figure {
+    margin: 0
+}
+
+#cale img {
+    vertical-align: middle
+}
+
+#cale .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+#cale .img-rounded {
+    border-radius: 6px
+}
+
+#cale .img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+#cale .img-circle {
+    border-radius: 50%
+}
+
+#cale hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee
+}
+
+#cale .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+
+#cale .sr-only-focusable:active, .sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto
+}
+
+#cale .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+#cale .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    font-weight: 400;
+    line-height: 1;
+    color: #777
+}
+
+#cale .h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+#cale .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
+    font-size: 65%
+}
+
+#cale .h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#cale .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    font-size: 75%
+}
+
+#cale .h1, h1 {
+    font-size: 36px
+}
+
+#cale .h2, h2 {
+    font-size: 30px
+}
+
+#cale .h3, h3 {
+    font-size: 24px
+}
+
+#cale .h4, h4 {
+    font-size: 18px
+}
+
+#cale .h5, h5 {
+    font-size: 14px
+}
+
+#cale .h6, h6 {
+    font-size: 12px
+}
+
+#cale p {
+    margin: 0 0 10px
+}
+
+#cale .lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4
+}
+
+#cale @media (min-width: 768px) {
+#cale     .lead {
+        font-size: 21px
+    }
+}
+
+#cale .small, small {
+    font-size: 85%
+}
+
+#cale .mark, mark {
+    padding: .2em;
+    background-color: #fcf8e3
+}
+
+#cale .text-left {
+    text-align: left
+}
+
+#cale .text-right {
+    text-align: right
+}
+
+#cale .text-center {
+    text-align: center
+}
+
+#cale .text-justify {
+    text-align: justify
+}
+
+#cale .text-nowrap {
+    white-space: nowrap
+}
+
+#cale .text-lowercase {
+    text-transform: lowercase
+}
+
+#cale .text-uppercase {
+    text-transform: uppercase
+}
+
+#cale .text-capitalize {
+    text-transform: capitalize
+}
+
+#cale .text-muted {
+    color: #777
+}
+
+#cale .text-primary {
+    color: #337ab7
+}
+
+#cale a.text-primary:hover {
+    color: #286090
+}
+
+#cale .text-success {
+    color: #3c763d
+}
+
+#cale a.text-success:hover {
+    color: #2b542c
+}
+
+#cale .text-info {
+    color: #31708f
+}
+
+#cale a.text-info:hover {
+    color: #245269
+}
+
+#cale .text-warning {
+    color: #8a6d3b
+}
+
+#cale a.text-warning:hover {
+    color: #66512c
+}
+
+#cale .text-danger {
+    color: #a94442
+}
+
+#cale a.text-danger:hover {
+    color: #843534
+}
+
+#cale .bg-primary {
+    color: #fff;
+    background-color: #337ab7
+}
+
+#cale a.bg-primary:hover {
+    background-color: #286090
+}
+
+#cale .bg-success {
+    background-color: #dff0d8
+}
+
+#cale a.bg-success:hover {
+    background-color: #c1e2b3
+}
+
+#cale .bg-info {
+    background-color: #d9edf7
+}
+
+#cale a.bg-info:hover {
+    background-color: #afd9ee
+}
+
+#cale .bg-warning {
+    background-color: #fcf8e3
+}
+
+#cale a.bg-warning:hover {
+    background-color: #f7ecb5
+}
+
+#cale .bg-danger {
+    background-color: #f2dede
+}
+
+#cale a.bg-danger:hover {
+    background-color: #e4b9b9
+}
+
+#cale .page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee
+}
+
+#cale ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+#cale ol ol, ol ul, ul ol, ul ul {
+    margin-bottom: 0
+}
+
+#cale .list-unstyled {
+    padding-left: 0;
+    list-style: none
+}
+
+#cale .list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none
+}
+
+#cale .list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px
+}
+
+#cale dl {
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+#cale dd, dt {
+    line-height: 1.42857143
+}
+
+#cale dt {
+    font-weight: 700
+}
+
+#cale dd {
+    margin-left: 0
+}
+
+#cale @media (min-width: 768px) {
+#cale     .dl-horizontal dt {
+        float: left;
+        width: 160px;
+        overflow: hidden;
+        clear: left;
+        text-align: right;
+        text-overflow: ellipsis;
+        white-space: nowrap
+    }
+
+#cale     .dl-horizontal dd {
+        margin-left: 180px
+    }
+}
+
+#cale abbr[data-original-title], abbr[title] {
+    cursor: help;
+    border-bottom: 1px dotted #777
+}
+
+#cale .initialism {
+    font-size: 90%;
+    text-transform: uppercase
+}
+
+#cale blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee
+}
+
+#cale blockquote ol:last-child, blockquote p:last-child, blockquote ul:last-child {
+    margin-bottom: 0
+}
+
+#cale blockquote .small, blockquote footer, blockquote small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #777
+}
+
+#cale blockquote .small:before, blockquote footer:before, blockquote small:before {
+    content: '\2014 \00A0'
+}
+
+#cale .blockquote-reverse, blockquote.pull-right {
+    padding-right: 15px;
+    padding-left: 0;
+    text-align: right;
+    border-right: 5px solid #eee;
+    border-left: 0
+}
+
+#cale .blockquote-reverse .small:before, .blockquote-reverse footer:before, .blockquote-reverse small:before, blockquote.pull-right .small:before, blockquote.pull-right footer:before, blockquote.pull-right small:before {
+    content: ''
+}
+
+#cale .blockquote-reverse .small:after, .blockquote-reverse footer:after, .blockquote-reverse small:after, blockquote.pull-right .small:after, blockquote.pull-right footer:after, blockquote.pull-right small:after {
+    content: '\00A0 \2014'
+}
+
+#cale address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143
+}
+
+#cale code, kbd, pre, samp {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+#cale code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px
+}
+
+#cale kbd {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #fff;
+    background-
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25)
+}
+
+#cale kbd kbd {
+    padding: 0;
+    font-size: 100%;
+    font-weight: 700;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+#cale pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+#cale pre code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0
+}
+
+#cale .pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll
+}
+
+#cale .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+#cale @media (min-width: 768px) {
+#cale     .container {
+        width: 750px
+    }
+}
+
+#cale @media (min-width: 992px) {
+#cale     .container {
+        width: 970px
+    }
+}
+
+#cale @media (min-width: 1200px) {
+#cale     .container {
+        width: 1170px
+    }
+}
+
+#cale .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+#cale .row {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+#cale .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+#cale .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left
+}
+
+#cale .col-xs-12 {
+    width: 100%
+}
+
+#cale .col-xs-11 {
+    width: 91.66666667%
+}
+
+#cale .col-xs-10 {
+    width: 83.33333333%
+}
+
+#cale .col-xs-9 {
+    width: 75%
+}
+
+#cale .col-xs-8 {
+    width: 66.66666667%
+}
+
+#cale .col-xs-7 {
+    width: 58.33333333%
+}
+
+#cale .col-xs-6 {
+    width: 50%
+}
+
+#cale .col-xs-5 {
+    width: 41.66666667%
+}
+
+#cale .col-xs-4 {
+    width: 33.33333333%
+}
+
+#cale .col-xs-3 {
+    width: 25%
+}
+
+#cale .col-xs-2 {
+    width: 16.66666667%
+}
+
+#cale .col-xs-1 {
+    width: 8.33333333%
+}
+
+#cale .col-xs-pull-12 {
+    right: 100%
+}
+
+#cale .col-xs-pull-11 {
+    right: 91.66666667%
+}
+
+#cale .col-xs-pull-10 {
+    right: 83.33333333%
+}
+
+#cale .col-xs-pull-9 {
+    right: 75%
+}
+
+#cale .col-xs-pull-8 {
+    right: 66.66666667%
+}
+
+#cale .col-xs-pull-7 {
+    right: 58.33333333%
+}
+
+#cale .col-xs-pull-6 {
+    right: 50%
+}
+
+#cale .col-xs-pull-5 {
+    right: 41.66666667%
+}
+
+#cale .col-xs-pull-4 {
+    right: 33.33333333%
+}
+
+#cale .col-xs-pull-3 {
+    right: 25%
+}
+
+#cale .col-xs-pull-2 {
+    right: 16.66666667%
+}
+
+#cale .col-xs-pull-1 {
+    right: 8.33333333%
+}
+
+#cale .col-xs-pull-0 {
+    right: auto
+}
+
+#cale .col-xs-push-12 {
+    left: 100%
+}
+
+#cale .col-xs-push-11 {
+    left: 91.66666667%
+}
+
+#cale .col-xs-push-10 {
+    left: 83.33333333%
+}
+
+#cale .col-xs-push-9 {
+    left: 75%
+}
+
+#cale .col-xs-push-8 {
+    left: 66.66666667%
+}
+
+#cale .col-xs-push-7 {
+    left: 58.33333333%
+}
+
+#cale .col-xs-push-6 {
+    left: 50%
+}
+
+#cale .col-xs-push-5 {
+    left: 41.66666667%
+}
+
+#cale .col-xs-push-4 {
+    left: 33.33333333%
+}
+
+#cale .col-xs-push-3 {
+    left: 25%
+}
+
+#cale .col-xs-push-2 {
+    left: 16.66666667%
+}
+
+#cale .col-xs-push-1 {
+    left: 8.33333333%
+}
+
+#cale .col-xs-push-0 {
+    left: auto
+}
+
+#cale .col-xs-offset-12 {
+    margin-left: 100%
+}
+
+#cale .col-xs-offset-11 {
+    margin-left: 91.66666667%
+}
+
+#cale .col-xs-offset-10 {
+    margin-left: 83.33333333%
+}
+
+#cale .col-xs-offset-9 {
+    margin-left: 75%
+}
+
+#cale .col-xs-offset-8 {
+    margin-left: 66.66666667%
+}
+
+#cale .col-xs-offset-7 {
+    margin-left: 58.33333333%
+}
+
+#cale .col-xs-offset-6 {
+    margin-left: 50%
+}
+
+#cale .col-xs-offset-5 {
+    margin-left: 41.66666667%
+}
+
+#cale .col-xs-offset-4 {
+    margin-left: 33.33333333%
+}
+
+#cale .col-xs-offset-3 {
+    margin-left: 25%
+}
+
+#cale .col-xs-offset-2 {
+    margin-left: 16.66666667%
+}
+
+#cale .col-xs-offset-1 {
+    margin-left: 8.33333333%
+}
+
+#cale .col-xs-offset-0 {
+    margin-left: 0
+}
+
+#cale @media (min-width: 768px) {
+#cale     .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: left
+    }
+
+#cale     .col-sm-12 {
+        width: 100%
+    }
+
+#cale     .col-sm-11 {
+        width: 91.66666667%
+    }
+
+#cale     .col-sm-10 {
+        width: 83.33333333%
+    }
+
+#cale     .col-sm-9 {
+        width: 75%
+    }
+
+#cale     .col-sm-8 {
+        width: 66.66666667%
+    }
+
+#cale     .col-sm-7 {
+        width: 58.33333333%
+    }
+
+#cale     .col-sm-6 {
+        width: 50%
+    }
+
+#cale     .col-sm-5 {
+        width: 41.66666667%
+    }
+
+#cale     .col-sm-4 {
+        width: 33.33333333%
+    }
+
+#cale     .col-sm-3 {
+        width: 25%
+    }
+
+#cale     .col-sm-2 {
+        width: 16.66666667%
+    }
+
+#cale     .col-sm-1 {
+        width: 8.33333333%
+    }
+
+#cale     .col-sm-pull-12 {
+        right: 100%
+    }
+
+#cale     .col-sm-pull-11 {
+        right: 91.66666667%
+    }
+
+#cale     .col-sm-pull-10 {
+        right: 83.33333333%
+    }
+
+#cale     .col-sm-pull-9 {
+        right: 75%
+    }
+
+#cale     .col-sm-pull-8 {
+        right: 66.66666667%
+    }
+
+#cale     .col-sm-pull-7 {
+        right: 58.33333333%
+    }
+
+#cale     .col-sm-pull-6 {
+        right: 50%
+    }
+
+#cale     .col-sm-pull-5 {
+        right: 41.66666667%
+    }
+
+#cale     .col-sm-pull-4 {
+        right: 33.33333333%
+    }
+
+#cale     .col-sm-pull-3 {
+        right: 25%
+    }
+
+#cale     .col-sm-pull-2 {
+        right: 16.66666667%
+    }
+
+#cale     .col-sm-pull-1 {
+        right: 8.33333333%
+    }
+
+#cale     .col-sm-pull-0 {
+        right: auto
+    }
+
+#cale     .col-sm-push-12 {
+        left: 100%
+    }
+
+#cale     .col-sm-push-11 {
+        left: 91.66666667%
+    }
+
+#cale     .col-sm-push-10 {
+        left: 83.33333333%
+    }
+
+#cale     .col-sm-push-9 {
+        left: 75%
+    }
+
+#cale     .col-sm-push-8 {
+        left: 66.66666667%
+    }
+
+#cale     .col-sm-push-7 {
+        left: 58.33333333%
+    }
+
+#cale     .col-sm-push-6 {
+        left: 50%
+    }
+
+#cale     .col-sm-push-5 {
+        left: 41.66666667%
+    }
+
+#cale     .col-sm-push-4 {
+        left: 33.33333333%
+    }
+
+#cale     .col-sm-push-3 {
+        left: 25%
+    }
+
+#cale     .col-sm-push-2 {
+        left: 16.66666667%
+    }
+
+#cale     .col-sm-push-1 {
+        left: 8.33333333%
+    }
+
+#cale     .col-sm-push-0 {
+        left: auto
+    }
+
+#cale     .col-sm-offset-12 {
+        margin-left: 100%
+    }
+
+#cale     .col-sm-offset-11 {
+        margin-left: 91.66666667%
+    }
+
+#cale     .col-sm-offset-10 {
+        margin-left: 83.33333333%
+    }
+
+#cale     .col-sm-offset-9 {
+        margin-left: 75%
+    }
+
+#cale     .col-sm-offset-8 {
+        margin-left: 66.66666667%
+    }
+
+#cale     .col-sm-offset-7 {
+        margin-left: 58.33333333%
+    }
+
+#cale     .col-sm-offset-6 {
+        margin-left: 50%
+    }
+
+#cale     .col-sm-offset-5 {
+        margin-left: 41.66666667%
+    }
+
+#cale     .col-sm-offset-4 {
+        margin-left: 33.33333333%
+    }
+
+#cale     .col-sm-offset-3 {
+        margin-left: 25%
+    }
+
+#cale     .col-sm-offset-2 {
+        margin-left: 16.66666667%
+    }
+
+#cale     .col-sm-offset-1 {
+        margin-left: 8.33333333%
+    }
+
+#cale     .col-sm-offset-0 {
+        margin-left: 0
+    }
+}
+
+#cale @media (min-width: 992px) {
+#cale     .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        float: left
+    }
+
+#cale     .col-md-12 {
+        width: 100%
+    }
+
+#cale     .col-md-11 {
+        width: 91.66666667%
+    }
+
+#cale     .col-md-10 {
+        width: 83.33333333%
+    }
+
+#cale     .col-md-9 {
+        width: 75%
+    }
+
+#cale     .col-md-8 {
+        width: 66.66666667%
+    }
+
+#cale     .col-md-7 {
+        width: 58.33333333%
+    }
+
+#cale     .col-md-6 {
+        width: 50%
+    }
+
+#cale     .col-md-5 {
+        width: 41.66666667%
+    }
+
+#cale     .col-md-4 {
+        width: 33.33333333%
+    }
+
+#cale     .col-md-3 {
+        width: 25%
+    }
+
+#cale     .col-md-2 {
+        width: 16.66666667%
+    }
+
+#cale     .col-md-1 {
+        width: 8.33333333%
+    }
+
+#cale     .col-md-pull-12 {
+        right: 100%
+    }
+
+#cale     .col-md-pull-11 {
+        right: 91.66666667%
+    }
+
+#cale     .col-md-pull-10 {
+        right: 83.33333333%
+    }
+
+#cale     .col-md-pull-9 {
+        right: 75%
+    }
+
+#cale     .col-md-pull-8 {
+        right: 66.66666667%
+    }
+
+#cale     .col-md-pull-7 {
+        right: 58.33333333%
+    }
+
+#cale     .col-md-pull-6 {
+        right: 50%
+    }
+
+#cale     .col-md-pull-5 {
+        right: 41.66666667%
+    }
+
+#cale     .col-md-pull-4 {
+        right: 33.33333333%
+    }
+
+#cale     .col-md-pull-3 {
+        right: 25%
+    }
+
+#cale     .col-md-pull-2 {
+        right: 16.66666667%
+    }
+
+#cale     .col-md-pull-1 {
+        right: 8.33333333%
+    }
+
+#cale     .col-md-pull-0 {
+        right: auto
+    }
+
+#cale     .col-md-push-12 {
+        left: 100%
+    }
+
+#cale     .col-md-push-11 {
+        left: 91.66666667%
+    }
+
+#cale     .col-md-push-10 {
+        left: 83.33333333%
+    }
+
+#cale     .col-md-push-9 {
+        left: 75%
+    }
+
+#cale     .col-md-push-8 {
+        left: 66.66666667%
+    }
+
+#cale     .col-md-push-7 {
+        left: 58.33333333%
+    }
+
+#cale     .col-md-push-6 {
+        left: 50%
+    }
+
+#cale     .col-md-push-5 {
+        left: 41.66666667%
+    }
+
+#cale     .col-md-push-4 {
+        left: 33.33333333%
+    }
+
+#cale     .col-md-push-3 {
+        left: 25%
+    }
+
+#cale     .col-md-push-2 {
+        left: 16.66666667%
+    }
+
+#cale     .col-md-push-1 {
+        left: 8.33333333%
+    }
+
+#cale     .col-md-push-0 {
+        left: auto
+    }
+
+#cale     .col-md-offset-12 {
+        margin-left: 100%
+    }
+
+#cale     .col-md-offset-11 {
+        margin-left: 91.66666667%
+    }
+
+#cale     .col-md-offset-10 {
+        margin-left: 83.33333333%
+    }
+
+#cale     .col-md-offset-9 {
+        margin-left: 75%
+    }
+
+#cale     .col-md-offset-8 {
+        margin-left: 66.66666667%
+    }
+
+#cale     .col-md-offset-7 {
+        margin-left: 58.33333333%
+    }
+
+#cale     .col-md-offset-6 {
+        margin-left: 50%
+    }
+
+#cale     .col-md-offset-5 {
+        margin-left: 41.66666667%
+    }
+
+#cale     .col-md-offset-4 {
+        margin-left: 33.33333333%
+    }
+
+#cale     .col-md-offset-3 {
+        margin-left: 25%
+    }
+
+#cale     .col-md-offset-2 {
+        margin-left: 16.66666667%
+    }
+
+#cale     .col-md-offset-1 {
+        margin-left: 8.33333333%
+    }
+
+#cale     .col-md-offset-0 {
+        margin-left: 0
+    }
+}
+
+#cale @media (min-width: 1200px) {
+#cale     .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+        float: left
+    }
+
+#cale     .col-lg-12 {
+        width: 100%
+    }
+
+#cale     .col-lg-11 {
+        width: 91.66666667%
+    }
+
+#cale     .col-lg-10 {
+        width: 83.33333333%
+    }
+
+#cale     .col-lg-9 {
+        width: 75%
+    }
+
+#cale     .col-lg-8 {
+        width: 66.66666667%
+    }
+
+#cale     .col-lg-7 {
+        width: 58.33333333%
+    }
+
+#cale     .col-lg-6 {
+        width: 50%
+    }
+
+#cale     .col-lg-5 {
+        width: 41.66666667%
+    }
+
+#cale     .col-lg-4 {
+        width: 33.33333333%
+    }
+
+#cale     .col-lg-3 {
+        width: 25%
+    }
+
+#cale     .col-lg-2 {
+        width: 16.66666667%
+    }
+
+#cale     .col-lg-1 {
+        width: 8.33333333%
+    }
+
+#cale     .col-lg-pull-12 {
+        right: 100%
+    }
+
+#cale     .col-lg-pull-11 {
+        right: 91.66666667%
+    }
+
+#cale     .col-lg-pull-10 {
+        right: 83.33333333%
+    }
+
+#cale     .col-lg-pull-9 {
+        right: 75%
+    }
+
+#cale     .col-lg-pull-8 {
+        right: 66.66666667%
+    }
+
+#cale     .col-lg-pull-7 {
+        right: 58.33333333%
+    }
+
+#cale     .col-lg-pull-6 {
+        right: 50%
+    }
+
+#cale     .col-lg-pull-5 {
+        right: 41.66666667%
+    }
+
+#cale     .col-lg-pull-4 {
+        right: 33.33333333%
+    }
+
+#cale     .col-lg-pull-3 {
+        right: 25%
+    }
+
+#cale     .col-lg-pull-2 {
+        right: 16.66666667%
+    }
+
+#cale     .col-lg-pull-1 {
+        right: 8.33333333%
+    }
+
+#cale     .col-lg-pull-0 {
+        right: auto
+    }
+
+#cale     .col-lg-push-12 {
+        left: 100%
+    }
+
+#cale     .col-lg-push-11 {
+        left: 91.66666667%
+    }
+
+#cale     .col-lg-push-10 {
+        left: 83.33333333%
+    }
+
+#cale     .col-lg-push-9 {
+        left: 75%
+    }
+
+#cale     .col-lg-push-8 {
+        left: 66.66666667%
+    }
+
+#cale     .col-lg-push-7 {
+        left: 58.33333333%
+    }
+
+#cale     .col-lg-push-6 {
+        left: 50%
+    }
+
+#cale     .col-lg-push-5 {
+        left: 41.66666667%
+    }
+
+#cale     .col-lg-push-4 {
+        left: 33.33333333%
+    }
+
+#cale     .col-lg-push-3 {
+        left: 25%
+    }
+
+#cale     .col-lg-push-2 {
+        left: 16.66666667%
+    }
+
+#cale     .col-lg-push-1 {
+        left: 8.33333333%
+    }
+
+#cale     .col-lg-push-0 {
+        left: auto
+    }
+
+#cale     .col-lg-offset-12 {
+        margin-left: 100%
+    }
+
+#cale     .col-lg-offset-11 {
+        margin-left: 91.66666667%
+    }
+
+#cale     .col-lg-offset-10 {
+        margin-left: 83.33333333%
+    }
+
+#cale     .col-lg-offset-9 {
+        margin-left: 75%
+    }
+
+#cale     .col-lg-offset-8 {
+        margin-left: 66.66666667%
+    }
+
+#cale     .col-lg-offset-7 {
+        margin-left: 58.33333333%
+    }
+
+#cale     .col-lg-offset-6 {
+        margin-left: 50%
+    }
+
+#cale     .col-lg-offset-5 {
+        margin-left: 41.66666667%
+    }
+
+#cale     .col-lg-offset-4 {
+        margin-left: 33.33333333%
+    }
+
+#cale     .col-lg-offset-3 {
+        margin-left: 25%
+    }
+
+#cale     .col-lg-offset-2 {
+        margin-left: 16.66666667%
+    }
+
+#cale     .col-lg-offset-1 {
+        margin-left: 8.33333333%
+    }
+
+#cale     .col-lg-offset-0 {
+        margin-left: 0
+    }
+}
+
+#cale table {
+    background-color: transparent
+}
+
+#cale caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #777;
+    text-align: left
+}
+
+#cale th {
+    text-align: left
+}
+
+#cale .table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px
+}
+
+#cale .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd
+}
+
+#cale .table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd
+}
+
+#cale .table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+    border-top: 0
+}
+
+#cale .table > tbody + tbody {
+    border-top: 2px solid #ddd
+}
+
+#cale .table .table {
+    background-color: #fff
+}
+
+#cale .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    padding: 5px
+}
+
+#cale .table-bordered {
+    border: 1px solid #ddd
+}
+
+#cale .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #ddd
+}
+
+#cale .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-bottom-width: 2px
+}
+
+#cale .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9
+}
+
+#cale .table-hover > tbody > tr:hover {
+    background-color: #f5f5f5
+}
+
+#cale table col[class*=col-] {
+    position: static;
+    display: table-column;
+    float: none
+}
+
+#cale table td[class*=col-], table th[class*=col-] {
+    position: static;
+    display: table-cell;
+    float: none
+}
+
+#cale .table > tbody > tr.active > td, .table > tbody > tr.active > th, .table > tbody > tr > td.active, .table > tbody > tr > th.active, .table > tfoot > tr.active > td, .table > tfoot > tr.active > th, .table > tfoot > tr > td.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > thead > tr.active > th, .table > thead > tr > td.active, .table > thead > tr > th.active {
+    background-color: #f5f5f5
+}
+
+#cale .table-hover > tbody > tr.active:hover > td, .table-hover > tbody > tr.active:hover > th, .table-hover > tbody > tr:hover > .active, .table-hover > tbody > tr > td.active:hover, .table-hover > tbody > tr > th.active:hover {
+    background-color: #e8e8e8
+}
+
+#cale .table > tbody > tr.success > td, .table > tbody > tr.success > th, .table > tbody > tr > td.success, .table > tbody > tr > th.success, .table > tfoot > tr.success > td, .table > tfoot > tr.success > th, .table > tfoot > tr > td.success, .table > tfoot > tr > th.success, .table > thead > tr.success > td, .table > thead > tr.success > th, .table > thead > tr > td.success, .table > thead > tr > th.success {
+    background-color: #dff0d8
+}
+
+#cale .table-hover > tbody > tr.success:hover > td, .table-hover > tbody > tr.success:hover > th, .table-hover > tbody > tr:hover > .success, .table-hover > tbody > tr > td.success:hover, .table-hover > tbody > tr > th.success:hover {
+    background-color: #d0e9c6
+}
+
+#cale .table > tbody > tr.info > td, .table > tbody > tr.info > th, .table > tbody > tr > td.info, .table > tbody > tr > th.info, .table > tfoot > tr.info > td, .table > tfoot > tr.info > th, .table > tfoot > tr > td.info, .table > tfoot > tr > th.info, .table > thead > tr.info > td, .table > thead > tr.info > th, .table > thead > tr > td.info, .table > thead > tr > th.info {
+    background-color: #d9edf7
+}
+
+#cale .table-hover > tbody > tr.info:hover > td, .table-hover > tbody > tr.info:hover > th, .table-hover > tbody > tr:hover > .info, .table-hover > tbody > tr > td.info:hover, .table-hover > tbody > tr > th.info:hover {
+    background-color: #c4e3f3
+}
+
+#cale .table > tbody > tr.warning > td, .table > tbody > tr.warning > th, .table > tbody > tr > td.warning, .table > tbody > tr > th.warning, .table > tfoot > tr.warning > td, .table > tfoot > tr.warning > th, .table > tfoot > tr > td.warning, .table > tfoot > tr > th.warning, .table > thead > tr.warning > td, .table > thead > tr.warning > th, .table > thead > tr > td.warning, .table > thead > tr > th.warning {
+    background-color: #fcf8e3
+}
+
+#cale .table-hover > tbody > tr.warning:hover > td, .table-hover > tbody > tr.warning:hover > th, .table-hover > tbody > tr:hover > .warning, .table-hover > tbody > tr > td.warning:hover, .table-hover > tbody > tr > th.warning:hover {
+    background-color: #faf2cc
+}
+
+#cale .table > tbody > tr.danger > td, .table > tbody > tr.danger > th, .table > tbody > tr > td.danger, .table > tbody > tr > th.danger, .table > tfoot > tr.danger > td, .table > tfoot > tr.danger > th, .table > tfoot > tr > td.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > thead > tr.danger > th, .table > thead > tr > td.danger, .table > thead > tr > th.danger {
+    background-color: #f2dede
+}
+
+#cale .table-hover > tbody > tr.danger:hover > td, .table-hover > tbody > tr.danger:hover > th, .table-hover > tbody > tr:hover > .danger, .table-hover > tbody > tr > td.danger:hover, .table-hover > tbody > tr > th.danger:hover {
+    background-color: #ebcccc
+}
+
+#cale .table-responsive {
+    min-height: .01%;
+    overflow-x: auto
+}
+
+#cale @media screen and (max-width: 767px) {
+#cale     .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd
+    }
+
+#cale     .table-responsive > .table {
+        margin-bottom: 0
+    }
+
+#cale     .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
+        white-space: nowrap
+    }
+
+#cale     .table-responsive > .table-bordered {
+        border: 0
+    }
+
+#cale     .table-responsive > .table-bordered > tbody > tr > td:first-child, .table-responsive > .table-bordered > tbody > tr > th:first-child, .table-responsive > .table-bordered > tfoot > tr > td:first-child, .table-responsive > .table-bordered > tfoot > tr > th:first-child, .table-responsive > .table-bordered > thead > tr > td:first-child, .table-responsive > .table-bordered > thead > tr > th:first-child {
+        border-left: 0
+    }
+
+#cale     .table-responsive > .table-bordered > tbody > tr > td:last-child, .table-responsive > .table-bordered > tbody > tr > th:last-child, .table-responsive > .table-bordered > tfoot > tr > td:last-child, .table-responsive > .table-bordered > tfoot > tr > th:last-child, .table-responsive > .table-bordered > thead > tr > td:last-child, .table-responsive > .table-bordered > thead > tr > th:last-child {
+        border-right: 0
+    }
+
+#cale     .table-responsive > .table-bordered > tbody > tr:last-child > td, .table-responsive > .table-bordered > tbody > tr:last-child > th, .table-responsive > .table-bordered > tfoot > tr:last-child > td, .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+        border-bottom: 0
+    }
+}
+
+#cale fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+#cale legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+
+    border: 0;
+    border-bottom: 1px solid #e5e5e5
+}
+
+#cale label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+#cale input[type=search] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#cale input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal
+}
+
+#cale input[type=file] {
+    display: block
+}
+
+#cale input[type=range] {
+    display: block;
+    width: 100%
+}
+
+#cale select[multiple], select[size] {
+    height: auto
+}
+
+#cale input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+#cale output {
+    display: block;
+    padding-top: 7px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555
+}
+
+#cale .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+#cale .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+#cale .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1
+}
+
+#cale .form-control:-ms-input-placeholder {
+    color: #999
+}
+
+#cale .form-control::-webkit-input-placeholder {
+    color: #999
+}
+
+#cale .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    cursor: not-allowed;
+    background-color: #eee;
+    opacity: 1
+}
+
+#cale textarea.form-control {
+    height: auto
+}
+
+#cale input[type=search] {
+    -webkit-appearance: none
+}
+
+#cale @media screen and (-webkit-min-device-pixel-ratio: 0) {
+#cale     input[type=date], input[type=time], input[type=datetime-local], input[type=month] {
+        line-height: 34px
+    }
+
+#cale     .input-group-sm input[type=date], .input-group-sm input[type=time], .input-group-sm input[type=datetime-local], .input-group-sm input[type=month], input[type=date].input-sm, input[type=time].input-sm, input[type=datetime-local].input-sm, input[type=month].input-sm {
+        line-height: 30px
+    }
+
+#cale     .input-group-lg input[type=date], .input-group-lg input[type=time], .input-group-lg input[type=datetime-local], .input-group-lg input[type=month], input[type=date].input-lg, input[type=time].input-lg, input[type=datetime-local].input-lg, input[type=month].input-lg {
+        line-height: 46px
+    }
+}
+
+#cale .form-group {
+    margin-bottom: 15px
+}
+
+#cale .checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#cale .checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer
+}
+
+#cale .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px \9;
+    margin-left: -20px
+}
+
+#cale .checkbox + .checkbox, .radio + .radio {
+    margin-top: -5px
+}
+
+#cale .checkbox-inline, .radio-inline {
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    vertical-align: middle;
+    cursor: pointer
+}
+
+#cale .checkbox-inline + .checkbox-inline, .radio-inline + .radio-inline {
+    margin-top: 0;
+    margin-left: 10px
+}
+
+#cale fieldset[disabled] input[type=checkbox], fieldset[disabled] input[type=radio], input[type=checkbox].disabled, input[type=checkbox][disabled], input[type=radio].disabled, input[type=radio][disabled] {
+    cursor: not-allowed
+}
+
+#cale .checkbox-inline.disabled, .radio-inline.disabled, fieldset[disabled] .checkbox-inline, fieldset[disabled] .radio-inline {
+    cursor: not-allowed
+}
+
+#cale .checkbox.disabled label, .radio.disabled label, fieldset[disabled] .checkbox label, fieldset[disabled] .radio label {
+    cursor: not-allowed
+}
+
+#cale .form-control-static {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 0
+}
+
+#cale .form-control-static.input-lg, .form-control-static.input-sm {
+    padding-right: 0;
+    padding-left: 0
+}
+
+#cale .input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+
+#cale select.input-sm {
+    height: 30px;
+    line-height: 30px
+}
+
+#cale select[multiple].input-sm, textarea.input-sm {
+    height: auto
+}
+
+#cale .form-group-sm .form-control {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+
+#cale select.form-group-sm .form-control {
+    height: 30px;
+    line-height: 30px
+}
+
+#cale select[multiple].form-group-sm .form-control, textarea.form-group-sm .form-control {
+    height: auto
+}
+
+#cale .form-group-sm .form-control-static {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5
+}
+
+#cale .input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px
+}
+
+#cale select.input-lg {
+    height: 46px;
+    line-height: 46px
+}
+
+#cale select[multiple].input-lg, textarea.input-lg {
+    height: auto
+}
+
+#cale .form-group-lg .form-control {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px
+}
+
+#cale select.form-group-lg .form-control {
+    height: 46px;
+    line-height: 46px
+}
+
+#cale select[multiple].form-group-lg .form-control, textarea.form-group-lg .form-control {
+    height: auto
+}
+
+#cale .form-group-lg .form-control-static {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333
+}
+
+#cale .has-feedback {
+    position: relative
+}
+
+#cale .has-feedback .form-control {
+    padding-right: 42.5px
+}
+
+#cale .form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none
+}
+
+#cale .input-lg + .form-control-feedback {
+    width: 46px;
+    height: 46px;
+    line-height: 46px
+}
+
+#cale .input-sm + .form-control-feedback {
+    width: 30px;
+    height: 30px;
+    line-height: 30px
+}
+
+#cale .has-success .checkbox, .has-success .checkbox-inline, .has-success .control-label, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.checkbox label, .has-success.checkbox-inline label, .has-success.radio label, .has-success.radio-inline label {
+    color: #3c763d
+}
+
+#cale .has-success .form-control {
+    border-color: #3c763d;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+
+#cale .has-success .form-control:focus {
+    border-color: #2b542c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168
+}
+
+#cale .has-success .input-group-addon {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #3c763d
+}
+
+#cale .has-success .form-control-feedback {
+    color: #3c763d
+}
+
+#cale .has-warning .checkbox, .has-warning .checkbox-inline, .has-warning .control-label, .has-warning .help-block, .has-warning .radio, .has-warning .radio-inline, .has-warning.checkbox label, .has-warning.checkbox-inline label, .has-warning.radio label, .has-warning.radio-inline label {
+    color: #8a6d3b
+}
+
+#cale .has-warning .form-control {
+    border-color: #8a6d3b;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+
+#cale .has-warning .form-control:focus {
+    border-color: #66512c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b
+}
+
+#cale .has-warning .input-group-addon {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #8a6d3b
+}
+
+#cale .has-warning .form-control-feedback {
+    color: #8a6d3b
+}
+
+#cale .has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #a94442
+}
+
+#cale .has-error .form-control {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+
+#cale .has-error .form-control:focus {
+    border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483
+}
+
+#cale .has-error .input-group-addon {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #a94442
+}
+
+#cale .has-error .form-control-feedback {
+    color: #a94442
+}
+
+#cale .has-feedback label ~ .form-control-feedback {
+    top: 25px
+}
+
+#cale .has-feedback label.sr-only ~ .form-control-feedback {
+    top: 0
+}
+
+#cale .help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373
+}
+
+#cale @media (min-width: 768px) {
+#cale     .form-inline .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+#cale     .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    }
+
+#cale     .form-inline .form-control-static {
+        display: inline-block
+    }
+
+#cale     .form-inline .input-group {
+        display: inline-table;
+        vertical-align: middle
+    }
+
+#cale     .form-inline .input-group .form-control, .form-inline .input-group .input-group-addon, .form-inline .input-group .input-group-btn {
+        width: auto
+    }
+
+#cale     .form-inline .input-group > .form-control {
+        width: 100%
+    }
+
+#cale     .form-inline .control-label {
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+#cale     .form-inline .checkbox, .form-inline .radio {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+#cale     .form-inline .checkbox label, .form-inline .radio label {
+        padding-left: 0
+    }
+
+#cale     .form-inline .checkbox input[type=checkbox], .form-inline .radio input[type=radio] {
+        position: relative;
+        margin-left: 0
+    }
+
+#cale     .form-inline .has-feedback .form-control-feedback {
+        top: 0
+    }
+}
+
+#cale .form-horizontal .checkbox, .form-horizontal .checkbox-inline, .form-horizontal .radio, .form-horizontal .radio-inline {
+    padding-top: 7px;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+#cale .form-horizontal .checkbox, .form-horizontal .radio {
+    min-height: 27px
+}
+
+#cale .form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+#cale @media (min-width: 768px) {
+#cale     .form-horizontal .control-label {
+        padding-top: 7px;
+        margin-bottom: 0;
+        text-align: right
+    }
+}
+
+#cale .form-horizontal .has-feedback .form-control-feedback {
+    right: 15px
+}
+
+#cale @media (min-width: 768px) {
+#cale     .form-horizontal .form-group-lg .control-label {
+        padding-top: 14.33px
+    }
+}
+
+#cale @media (min-width: 768px) {
+#cale     .form-horizontal .form-group-sm .control-label {
+        padding-top: 6px
+    }
+}
+
+
+#cale .fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear
+}
+
+#cale .fade.in {
+    opacity: 1
+}
+
+#cale .collapse {
+    display: none;
+    visibility: hidden
+}
+
+#cale .collapse.in {
+    display: block;
+    visibility: visible
+}
+
+#cale tr.collapse.in {
+    display: table-row
+}
+
+#cale tbody.collapse.in {
+    display: table-row-group
+}
+
+#cale .collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .35s;
+    -o-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-property: height, visibility;
+    -o-transition-property: height, visibility;
+    transition-property: height, visibility
+}
+
+#cale .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+
+#cale .dropdown, .dropup {
+    position: relative
+}
+
+#cale .dropdown-toggle:focus {
+    outline: 0
+}
+
+#cale .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
+}
+
+#cale .dropdown-menu.pull-right {
+    right: 0;
+    left: auto
+}
+
+#cale .dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5
+}
+
+#cale .dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap
+}
+
+#cale .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5
+}
+
+#cale .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #337ab7;
+    outline: 0
+}
+
+#cale .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:focus, .dropdown-menu > .disabled > a:hover {
+    color: #777
+}
+
+#cale .dropdown-menu > .disabled > a:focus, .dropdown-menu > .disabled > a:hover {
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+}
+
+#cale .open > .dropdown-menu {
+    display: block
+}
+
+#cale .open > a {
+    outline: 0
+}
+
+#cale .dropdown-menu-right {
+    right: 0;
+    left: auto
+}
+
+#cale .dropdown-menu-left {
+    right: auto;
+    left: 0
+}
+
+#cale .dropdown-header {
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #777;
+    white-space: nowrap
+}
+
+#cale .dropdown-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 990
+}
+
+#cale .pull-right > .dropdown-menu {
+    right: 0;
+    left: auto
+}
+
+#cale .dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+
+    border-top: 0;
+    border-bottom: 4px solid
+}
+
+#cale .dropup .dropdown-menu, .navbar-fixed-bottom .dropdown .dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 2px
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-right .dropdown-menu {
+        right: 0;
+        left: auto
+    }
+
+#cale     .navbar-right .dropdown-menu-left {
+        right: auto;
+        left: 0
+    }
+}
+
+
+#cale .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate
+}
+
+#cale .input-group[class*=col-] {
+    float: none;
+    padding-right: 0;
+    padding-left: 0
+}
+
+#cale .input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0
+}
+
+
+#cale .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px
+}
+
+#cale .input-group-addon.input-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px
+}
+
+#cale .input-group-addon.input-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 6px
+}
+
+#cale .input-group-addon input[type=checkbox], .input-group-addon input[type=radio] {
+    margin-top: 0
+}
+
+
+#cale .input-group-addon:first-child {
+    border-right: 0
+}
+
+
+
+#cale .input-group-addon:last-child {
+    border-left: 0
+}
+
+#cale .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+#cale .nav > li {
+    position: relative;
+    display: block
+}
+
+#cale .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px
+}
+
+#cale .nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #eee
+}
+
+#cale .nav > li.disabled > a {
+    color: #777
+}
+
+#cale .nav > li.disabled > a:focus, .nav > li.disabled > a:hover {
+    color: #777;
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent
+}
+
+#cale .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #eee;
+    border-color: #337ab7
+}
+
+#cale .nav .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5
+}
+
+#cale .nav > li > a > img {
+    max-width: none
+}
+
+#cale .nav-tabs {
+    border-bottom: 1px solid #ddd
+}
+
+#cale .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px
+}
+
+#cale .nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0
+}
+
+#cale .nav-tabs > li > a:hover {
+    border-color: #eee #eee #ddd
+}
+
+#cale .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent
+}
+
+#cale .nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0
+}
+
+#cale .nav-tabs.nav-justified > li {
+    float: none
+}
+
+#cale .nav-tabs.nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center
+}
+
+#cale .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto
+}
+
+#cale @media (min-width: 768px) {
+#cale     .nav-tabs.nav-justified > li {
+        display: table-cell;
+        width: 1%
+    }
+
+#cale     .nav-tabs.nav-justified > li > a {
+        margin-bottom: 0
+    }
+}
+
+#cale .nav-tabs.nav-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px
+}
+
+#cale .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
+    border: 1px solid #ddd
+}
+
+#cale @media (min-width: 768px) {
+#cale     .nav-tabs.nav-justified > li > a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0
+    }
+
+#cale     .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
+        border-bottom-color: #fff
+    }
+}
+
+#cale .nav-pills > li {
+    float: left
+}
+
+#cale .nav-pills > li > a {
+    border-radius: 4px
+}
+
+#cale .nav-pills > li + li {
+    margin-left: 2px
+}
+
+#cale .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #fff;
+    background-color: #337ab7
+}
+
+#cale .nav-stacked > li {
+    float: none
+}
+
+#cale .nav-stacked > li + li {
+    margin-top: 2px;
+    margin-left: 0
+}
+
+#cale .nav-justified {
+    width: 100%
+}
+
+#cale .nav-justified > li {
+    float: none
+}
+
+#cale .nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center
+}
+
+#cale .nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto
+}
+
+#cale @media (min-width: 768px) {
+#cale     .nav-justified > li {
+        display: table-cell;
+        width: 1%
+    }
+
+#cale     .nav-justified > li > a {
+        margin-bottom: 0
+    }
+}
+
+#cale .nav-tabs-justified {
+    border-bottom: 0
+}
+
+#cale .nav-tabs-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px
+}
+
+#cale .nav-tabs-justified > .active > a, .nav-tabs-justified > .active > a:focus, .nav-tabs-justified > .active > a:hover {
+    border: 1px solid #ddd
+}
+
+#cale @media (min-width: 768px) {
+#cale     .nav-tabs-justified > li > a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0
+    }
+
+#cale     .nav-tabs-justified > .active > a, .nav-tabs-justified > .active > a:focus, .nav-tabs-justified > .active > a:hover {
+        border-bottom-color: #fff
+    }
+}
+
+#cale .tab-content > .tab-pane {
+    display: none;
+    visibility: hidden
+}
+
+#cale .tab-content > .active {
+    display: block;
+    visibility: visible
+}
+
+#cale .nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+#cale .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar {
+        border-radius: 4px
+    }
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-header {
+        float: left
+    }
+}
+
+#cale .navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
+}
+
+#cale .navbar-collapse.in {
+    overflow-y: auto
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+#cale     .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+        visibility: visible !important
+    }
+
+#cale     .navbar-collapse.in {
+        overflow-y: visible
+    }
+
+#cale     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0
+    }
+}
+
+#cale .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 340px
+}
+
+#cale @media (max-device-width: 480px) and (orientation: landscape) {
+#cale     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+        max-height: 200px
+    }
+}
+
+#cale .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+#cale @media (min-width: 768px) {
+#cale     .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+        margin-right: 0;
+        margin-left: 0
+    }
+}
+
+#cale .navbar-static-top {
+    z-index: 1000;
+    border-width: 0 0 1px
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-static-top {
+        border-radius: 0
+    }
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-fixed-bottom, .navbar-fixed-top {
+        border-radius: 0
+    }
+}
+
+#cale .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px
+}
+
+#cale .navbar-fixed-bottom {
+    bottom: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0
+}
+
+#cale .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px
+}
+
+#cale .navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none
+}
+
+#cale .navbar-brand > img {
+    display: block
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: -15px
+    }
+}
+
+#cale .navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+#cale .navbar-toggle:focus {
+    outline: 0
+}
+
+#cale .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px
+}
+
+#cale .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-toggle {
+        display: none
+    }
+}
+
+#cale .navbar-nav {
+    margin: 7.5px -15px
+}
+
+#cale .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px
+}
+
+#cale @media (max-width: 767px) {
+#cale     .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+#cale     .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu > li > a {
+        padding: 5px 15px 5px 25px
+    }
+
+#cale     .navbar-nav .open .dropdown-menu > li > a {
+        line-height: 20px
+    }
+
+#cale     .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-nav .open .dropdown-menu > li > a:hover {
+        background-image: none
+    }
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-nav {
+        float: left;
+        margin: 0
+    }
+
+#cale     .navbar-nav > li {
+        float: left
+    }
+
+#cale     .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+}
+
+#cale .navbar-form {
+    padding: 10px 15px;
+    margin-top: 8px;
+    margin-right: -15px;
+    margin-bottom: 8px;
+    margin-left: -15px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1), 0 1px 0 rgba(255, 255, 255, .1)
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-form .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+#cale     .navbar-form .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    }
+
+#cale     .navbar-form .form-control-static {
+        display: inline-block
+    }
+
+#cale     .navbar-form .input-group {
+        display: inline-table;
+        vertical-align: middle
+    }
+
+#cale     .navbar-form .input-group .form-control, .navbar-form .input-group .input-group-addon, .navbar-form .input-group .input-group-btn {
+        width: auto
+    }
+
+#cale     .navbar-form .input-group > .form-control {
+        width: 100%
+    }
+
+#cale     .navbar-form .control-label {
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+#cale     .navbar-form .checkbox, .navbar-form .radio {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+#cale     .navbar-form .checkbox label, .navbar-form .radio label {
+        padding-left: 0
+    }
+
+#cale     .navbar-form .checkbox input[type=checkbox], .navbar-form .radio input[type=radio] {
+        position: relative;
+        margin-left: 0
+    }
+
+#cale     .navbar-form .has-feedback .form-control-feedback {
+        top: 0
+    }
+}
+
+#cale @media (max-width: 767px) {
+#cale     .navbar-form .form-group {
+        margin-bottom: 5px
+    }
+
+#cale     .navbar-form .form-group:last-child {
+        margin-bottom: 0
+    }
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-form {
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+}
+
+#cale .navbar-nav > li > .dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+#cale .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+    margin-bottom: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+#cale .navbar-btn {
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+#cale .navbar-btn.btn-sm {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#cale .navbar-btn.btn-xs {
+    margin-top: 14px;
+    margin-bottom: 14px
+}
+
+#cale .navbar-text {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-text {
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px
+    }
+}
+
+#cale @media (min-width: 768px) {
+#cale     .navbar-left {
+        float: left !important
+    }
+
+#cale     .navbar-right {
+        float: right !important;
+        margin-right: -15px
+    }
+
+#cale     .navbar-right ~ .navbar-right {
+        margin-right: 0
+    }
+}
+
+#cale .navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7
+}
+
+#cale .navbar-default .navbar-brand {
+    color: #777
+}
+
+#cale .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #5e5e5e;
+    background-color: transparent
+}
+
+#cale .navbar-default .navbar-text {
+    color: #777
+}
+
+#cale .navbar-default .navbar-nav > li > a {
+    color: #777
+}
+
+#cale .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background-color: transparent
+}
+
+#cale .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #555;
+    background-color: #e7e7e7
+}
+
+#cale .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:focus, .navbar-default .navbar-nav > .disabled > a:hover {
+    color: #ccc;
+    background-color: transparent
+}
+
+#cale .navbar-default .navbar-toggle {
+    border-color: #ddd
+}
+
+#cale .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #ddd
+}
+
+#cale .navbar-default .navbar-toggle .icon-bar {
+    background-color: #888
+}
+
+#cale .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7
+}
+
+#cale .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #555;
+    background-color: #e7e7e7
+}
+
+#cale @media (max-width: 767px) {
+#cale     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #777
+    }
+
+#cale     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+
+        background-color: transparent
+    }
+
+#cale     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+        color: #555;
+        background-color: #e7e7e7
+    }
+
+#cale     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover {
+        color: #ccc;
+        background-color: transparent
+    }
+}
+
+#cale .navbar-default .navbar-link {
+    color: #777
+}
+
+#cale .navbar-default .navbar-link:hover {
+
+}
+
+
+#cale .navbar-inverse {
+    background-color: #222;
+    border-color: #080808
+}
+
+#cale .navbar-inverse .navbar-brand {
+    color: #9d9d9d
+}
+
+#cale .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent
+}
+
+#cale .navbar-inverse .navbar-text {
+    color: #9d9d9d
+}
+
+#cale .navbar-inverse .navbar-nav > li > a {
+    color: #9d9d9d
+}
+
+#cale .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: transparent
+}
+
+#cale .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #080808
+}
+
+#cale .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:focus, .navbar-inverse .navbar-nav > .disabled > a:hover {
+    color: #444;
+    background-color: transparent
+}
+
+#cale .navbar-inverse .navbar-toggle {
+    border-
+}
+
+#cale .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-
+}
+
+#cale .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fff
+}
+
+#cale .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010
+}
+
+#cale .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    color: #fff;
+    background-color: #080808
+}
+
+#cale @media (max-width: 767px) {
+#cale     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+        border-color: #080808
+    }
+
+#cale     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+        background-color: #080808
+    }
+
+#cale     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #9d9d9d
+    }
+
+#cale     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #fff;
+        background-color: transparent
+    }
+
+#cale     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover {
+        color: #fff;
+        background-color: #080808
+    }
+
+#cale     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover {
+        color: #444;
+        background-color: transparent
+    }
+}
+
+#cale .navbar-inverse .navbar-link {
+    color: #9d9d9d
+}
+
+#cale .navbar-inverse .navbar-link:hover {
+    color: #fff
+}
+
+
+#cale .breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px
+}
+
+#cale .breadcrumb > li {
+    display: inline-block
+}
+
+#cale .breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+
+}
+
+#cale .breadcrumb > .active {
+    color: #777
+}
+
+#cale .pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px
+}
+
+#cale .pagination > li {
+    display: inline
+}
+
+#cale .pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd
+}
+
+#cale .pagination > li:first-child > a, .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+#cale .pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+#cale .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd
+}
+
+#cale .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7
+}
+
+#cale .pagination > .disabled > a, .pagination > .disabled > a:focus, .pagination > .disabled > a:hover, .pagination > .disabled > span, .pagination > .disabled > span:focus, .pagination > .disabled > span:hover {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd
+}
+
+#cale .pagination-lg > li > a, .pagination-lg > li > span {
+    padding: 10px 16px;
+    font-size: 18px
+}
+
+#cale .pagination-lg > li:first-child > a, .pagination-lg > li:first-child > span {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px
+}
+
+#cale .pagination-lg > li:last-child > a, .pagination-lg > li:last-child > span {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px
+}
+
+#cale .pagination-sm > li > a, .pagination-sm > li > span {
+    padding: 5px 10px;
+    font-size: 12px
+}
+
+#cale .pagination-sm > li:first-child > a, .pagination-sm > li:first-child > span {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+#cale .pagination-sm > li:last-child > a, .pagination-sm > li:last-child > span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+#cale .pager {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+    list-style: none
+}
+
+#cale .pager li {
+    display: inline
+}
+
+#cale .pager li > a, .pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px
+}
+
+#cale .pager li > a:focus, .pager li > a:hover {
+    text-decoration: none;
+    background-color: #eee
+}
+
+#cale .pager .next > a, .pager .next > span {
+    float: right
+}
+
+#cale .pager .previous > a, .pager .previous > span {
+    float: left
+}
+
+#cale .pager .disabled > a, .pager .disabled > a:focus, .pager .disabled > a:hover, .pager .disabled > span {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff
+}
+
+#cale .label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em
+}
+
+#cale a.label:focus, a.label:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+
+#cale .label:empty {
+    display: none
+}
+
+
+
+#cale .label-default {
+    background-color: #777
+}
+
+#cale .label-default[href]:focus, .label-default[href]:hover {
+    background-color: #5e5e5e
+}
+
+#cale .label-primary {
+    background-color: #337ab7
+}
+
+#cale .label-primary[href]:focus, .label-primary[href]:hover {
+    background-color: #286090
+}
+
+#cale .label-success {
+    background-color: #5cb85c
+}
+
+#cale .label-success[href]:focus, .label-success[href]:hover {
+    background-color: #449d44
+}
+
+#cale .label-info {
+    background-color: #5bc0de
+}
+
+#cale .label-info[href]:focus, .label-info[href]:hover {
+    background-color: #31b0d5
+}
+
+#cale .label-warning {
+    background-color: #f0ad4e
+}
+
+#cale .label-warning[href]:focus, .label-warning[href]:hover {
+    background-color: #ec971f
+}
+
+#cale .label-danger {
+    background-color: #d9534f
+}
+
+#cale .label-danger[href]:focus, .label-danger[href]:hover {
+    background-color: #c9302c
+}
+
+#cale .badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #777;
+    border-radius: 10px
+}
+
+#cale .badge:empty {
+    display: none
+}
+
+#cale a.badge:focus, a.badge:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+
+#cale .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+    color: #337ab7;
+    background-color: #fff
+}
+
+#cale .list-group-item > .badge {
+    float: right
+}
+
+#cale .list-group-item > .badge + .badge {
+    margin-right: 5px
+}
+
+#cale .nav-pills > li > a > .badge {
+    margin-left: 3px
+}
+
+#cale .jumbotron {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee
+}
+
+#cale .jumbotron .h1, .jumbotron h1 {
+    color: inherit
+}
+
+#cale .jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200
+}
+
+#cale .jumbotron > hr {
+    border-top-color: #d5d5d5
+}
+
+#cale .container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 6px
+}
+
+#cale .jumbotron .container {
+    max-width: 100%
+}
+
+#cale @media screen and (min-width: 768px) {
+#cale     .jumbotron {
+        padding: 48px 0
+    }
+
+#cale     .container .jumbotron, .container-fluid .jumbotron {
+        padding-right: 60px;
+        padding-left: 60px
+    }
+
+#cale     .jumbotron .h1, .jumbotron h1 {
+        font-size: 63px
+    }
+}
+
+#cale .thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out
+}
+
+#cale .thumbnail a > img, .thumbnail > img {
+    margin-right: auto;
+    margin-left: auto
+}
+
+#cale a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #337ab7
+}
+
+#cale .thumbnail .caption {
+    padding: 9px;
+
+}
+
+#cale .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+#cale .alert h4 {
+    margin-top: 0;
+    color: inherit
+}
+
+#cale .alert .alert-link {
+    font-weight: 700
+}
+
+#cale .alert > p, .alert > ul {
+    margin-bottom: 0
+}
+
+#cale .alert > p + p {
+    margin-top: 5px
+}
+
+#cale .alert-dismissable, .alert-dismissible {
+    padding-right: 35px
+}
+
+#cale .alert-dismissable .close, .alert-dismissible .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit
+}
+
+#cale .alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6
+}
+
+#cale .alert-success hr {
+    border-top-color: #c9e2b3
+}
+
+#cale .alert-success .alert-link {
+    color: #2b542c
+}
+
+#cale .alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1
+}
+
+#cale .alert-info hr {
+    border-top-color: #a6e1ec
+}
+
+#cale .alert-info .alert-link {
+    color: #245269
+}
+
+#cale .alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc
+}
+
+#cale .alert-warning hr {
+    border-top-color: #f7e1b5
+}
+
+#cale .alert-warning .alert-link {
+    color: #66512c
+}
+
+#cale .alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1
+}
+
+#cale .alert-danger hr {
+    border-top-color: #e4b9c0
+}
+
+#cale .alert-danger .alert-link {
+    color: #843534
+}
+
+#cale @-webkit-keyframes progress-bar-stripes {
+#cale     from {
+        background-position: 40px 0
+    }
+#cale     to {
+        background-position: 0 0
+    }
+}
+
+#cale @-o-keyframes progress-bar-stripes {
+#cale     from {
+        background-position: 40px 0
+    }
+#cale     to {
+        background-position: 0 0
+    }
+}
+
+#cale @keyframes progress-bar-stripes {
+#cale     from {
+        background-position: 40px 0
+    }
+#cale     to {
+        background-position: 0 0
+    }
+}
+
+#cale .progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1)
+}
+
+#cale .progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #337ab7;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease
+}
+
+#cale .progress-bar-striped, .progress-striped .progress-bar {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px
+}
+
+#cale .progress-bar.active, .progress.active .progress-bar {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite
+}
+
+#cale .progress-bar-success {
+    background-color: #5cb85c
+}
+
+#cale .progress-striped .progress-bar-success {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+#cale .progress-bar-info {
+    background-color: #5bc0de
+}
+
+#cale .progress-striped .progress-bar-info {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+#cale .progress-bar-warning {
+    background-color: #f0ad4e
+}
+
+#cale .progress-striped .progress-bar-warning {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+#cale .progress-bar-danger {
+    background-color: #d9534f
+}
+
+#cale .progress-striped .progress-bar-danger {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
+}
+
+#cale .media {
+    margin-top: 15px
+}
+
+#cale .media:first-child {
+    margin-top: 0
+}
+
+#cale .media, .media-body {
+    overflow: hidden;
+    zoom: 1
+}
+
+#cale .media-body {
+    width: 10000px
+}
+
+#cale .media-object {
+    display: block
+}
+
+#cale .media-right, .media > .pull-right {
+    padding-left: 10px
+}
+
+#cale .media-left, .media > .pull-left {
+    padding-right: 10px
+}
+
+#cale .media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top
+}
+
+#cale .media-middle {
+    vertical-align: middle
+}
+
+#cale .media-bottom {
+    vertical-align: bottom
+}
+
+#cale .media-heading {
+    margin-top: 0;
+    margin-bottom: 5px
+}
+
+#cale .media-list {
+    padding-left: 0;
+    list-style: none
+}
+
+#cale .list-group {
+    padding-left: 0;
+    margin-bottom: 20px
+}
+
+#cale .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd
+}
+
+#cale .list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px
+}
+
+#cale .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px
+}
+
+#cale a.list-group-item {
+    color: #555
+}
+
+#cale a.list-group-item .list-group-item-heading {
+
+}
+
+#cale a.list-group-item:focus, a.list-group-item:hover {
+    color: #555;
+    text-decoration: none;
+    background-color: #f5f5f5
+}
+
+#cale .list-group-item.disabled, .list-group-item.disabled:focus, .list-group-item.disabled:hover {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #eee
+}
+
+#cale .list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading {
+    color: inherit
+}
+
+#cale .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text {
+    color: #777
+}
+
+#cale .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7
+}
+
+#cale .list-group-item.active .list-group-item-heading, .list-group-item.active .list-group-item-heading > .small, .list-group-item.active .list-group-item-heading > small, .list-group-item.active:focus .list-group-item-heading, .list-group-item.active:focus .list-group-item-heading > .small, .list-group-item.active:focus .list-group-item-heading > small, .list-group-item.active:hover .list-group-item-heading, .list-group-item.active:hover .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading > small {
+    color: inherit
+}
+
+#cale .list-group-item.active .list-group-item-text, .list-group-item.active:focus .list-group-item-text, .list-group-item.active:hover .list-group-item-text {
+    color: #c7ddef
+}
+
+#cale .list-group-item-success {
+    color: #3c763d;
+    background-color: #dff0d8
+}
+
+#cale a.list-group-item-success {
+    color: #3c763d
+}
+
+#cale a.list-group-item-success .list-group-item-heading {
+    color: inherit
+}
+
+#cale a.list-group-item-success:focus, a.list-group-item-success:hover {
+    color: #3c763d;
+    background-color: #d0e9c6
+}
+
+#cale a.list-group-item-success.active, a.list-group-item-success.active:focus, a.list-group-item-success.active:hover {
+    color: #fff;
+    background-color: #3c763d;
+    border-color: #3c763d
+}
+
+#cale .list-group-item-info {
+    color: #31708f;
+    background-color: #d9edf7
+}
+
+#cale a.list-group-item-info {
+    color: #31708f
+}
+
+#cale a.list-group-item-info .list-group-item-heading {
+    color: inherit
+}
+
+#cale a.list-group-item-info:focus, a.list-group-item-info:hover {
+    color: #31708f;
+    background-color: #c4e3f3
+}
+
+#cale a.list-group-item-info.active, a.list-group-item-info.active:focus, a.list-group-item-info.active:hover {
+    color: #fff;
+    background-color: #31708f;
+    border-color: #31708f
+}
+
+#cale .list-group-item-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3
+}
+
+#cale a.list-group-item-warning {
+    color: #8a6d3b
+}
+
+#cale a.list-group-item-warning .list-group-item-heading {
+    color: inherit
+}
+
+#cale a.list-group-item-warning:focus, a.list-group-item-warning:hover {
+    color: #8a6d3b;
+    background-color: #faf2cc
+}
+
+#cale a.list-group-item-warning.active, a.list-group-item-warning.active:focus, a.list-group-item-warning.active:hover {
+    color: #fff;
+    background-color: #8a6d3b;
+    border-color: #8a6d3b
+}
+
+#cale .list-group-item-danger {
+    color: #a94442;
+    background-color: #f2dede
+}
+
+#cale a.list-group-item-danger {
+    color: #a94442
+}
+
+#cale a.list-group-item-danger .list-group-item-heading {
+    color: inherit
+}
+
+#cale a.list-group-item-danger:focus, a.list-group-item-danger:hover {
+    color: #a94442;
+    background-color: #ebcccc
+}
+
+#cale a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-group-item-danger.active:hover {
+    color: #fff;
+    background-color: #a94442;
+    border-color: #a94442
+}
+
+#cale .list-group-item-heading {
+    margin-top: 0;
+    margin-bottom: 5px
+}
+
+#cale .list-group-item-text {
+    margin-bottom: 0;
+    line-height: 1.3
+}
+
+#cale .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+}
+
+#cale .panel-body {
+    padding: 15px
+}
+
+#cale .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+#cale .panel-heading > .dropdown .dropdown-toggle {
+    color: inherit
+}
+
+#cale .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit
+}
+
+#cale .panel-title > .small, .panel-title > .small > a, .panel-title > a, .panel-title > small, .panel-title > small > a {
+    color: inherit
+}
+
+#cale .panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+#cale .panel > .list-group, .panel > .panel-collapse > .list-group {
+    margin-bottom: 0
+}
+
+#cale .panel > .list-group .list-group-item, .panel > .panel-collapse > .list-group .list-group-item {
+    border-width: 1px 0;
+    border-radius: 0
+}
+
+#cale .panel > .list-group:first-child .list-group-item:first-child, .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+    border-top: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+#cale .panel > .list-group:last-child .list-group-item:last-child, .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+    border-bottom: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+#cale .panel-heading + .list-group .list-group-item:first-child {
+    border-top-width: 0
+}
+
+#cale .list-group + .panel-footer {
+    border-top-width: 0
+}
+
+#cale .panel > .panel-collapse > .table, .panel > .table, .panel > .table-responsive > .table {
+    margin-bottom: 0
+}
+
+#cale .panel > .panel-collapse > .table caption, .panel > .table caption, .panel > .table-responsive > .table caption {
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+#cale .panel > .table-responsive:first-child > .table:first-child, .panel > .table:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+#cale .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child, .panel > .table:first-child > tbody:first-child > tr:first-child, .panel > .table:first-child > thead:first-child > tr:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+#cale .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child, .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child, .panel > .table:first-child > tbody:first-child > tr:first-child td:first-child, .panel > .table:first-child > tbody:first-child > tr:first-child th:first-child, .panel > .table:first-child > thead:first-child > tr:first-child td:first-child, .panel > .table:first-child > thead:first-child > tr:first-child th:first-child {
+    border-top-left-radius: 3px
+}
+
+#cale .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child, .panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child, .panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child, .panel > .table:first-child > tbody:first-child > tr:first-child td:last-child, .panel > .table:first-child > tbody:first-child > tr:first-child th:last-child, .panel > .table:first-child > thead:first-child > tr:first-child td:last-child, .panel > .table:first-child > thead:first-child > tr:first-child th:last-child {
+    border-top-right-radius: 3px
+}
+
+#cale .panel > .table-responsive:last-child > .table:last-child, .panel > .table:last-child {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+#cale .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child, .panel > .table:last-child > tbody:last-child > tr:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+#cale .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child, .panel > .table:last-child > tbody:last-child > tr:last-child td:first-child, .panel > .table:last-child > tbody:last-child > tr:last-child th:first-child, .panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child, .panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child {
+    border-bottom-left-radius: 3px
+}
+
+#cale .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child, .panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child, .panel > .table:last-child > tbody:last-child > tr:last-child td:last-child, .panel > .table:last-child > tbody:last-child > tr:last-child th:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child, .panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child {
+    border-bottom-right-radius: 3px
+}
+
+#cale .panel > .panel-body + .table, .panel > .panel-body + .table-responsive, .panel > .table + .panel-body, .panel > .table-responsive + .panel-body {
+    border-top: 1px solid #ddd
+}
+
+#cale .panel > .table > tbody:first-child > tr:first-child td, .panel > .table > tbody:first-child > tr:first-child th {
+    border-top: 0
+}
+
+#cale .panel > .table-bordered, .panel > .table-responsive > .table-bordered {
+    border: 0
+}
+
+#cale .panel > .table-bordered > tbody > tr > td:first-child, .panel > .table-bordered > tbody > tr > th:first-child, .panel > .table-bordered > tfoot > tr > td:first-child, .panel > .table-bordered > tfoot > tr > th:first-child, .panel > .table-bordered > thead > tr > td:first-child, .panel > .table-bordered > thead > tr > th:first-child, .panel > .table-responsive > .table-bordered > tbody > tr > td:first-child, .panel > .table-responsive > .table-bordered > tbody > tr > th:first-child, .panel > .table-responsive > .table-bordered > tfoot > tr > td:first-child, .panel > .table-responsive > .table-bordered > tfoot > tr > th:first-child, .panel > .table-responsive > .table-bordered > thead > tr > td:first-child, .panel > .table-responsive > .table-bordered > thead > tr > th:first-child {
+    border-left: 0
+}
+
+#cale .panel > .table-bordered > tbody > tr > td:last-child, .panel > .table-bordered > tbody > tr > th:last-child, .panel > .table-bordered > tfoot > tr > td:last-child, .panel > .table-bordered > tfoot > tr > th:last-child, .panel > .table-bordered > thead > tr > td:last-child, .panel > .table-bordered > thead > tr > th:last-child, .panel > .table-responsive > .table-bordered > tbody > tr > td:last-child, .panel > .table-responsive > .table-bordered > tbody > tr > th:last-child, .panel > .table-responsive > .table-bordered > tfoot > tr > td:last-child, .panel > .table-responsive > .table-bordered > tfoot > tr > th:last-child, .panel > .table-responsive > .table-bordered > thead > tr > td:last-child, .panel > .table-responsive > .table-bordered > thead > tr > th:last-child {
+    border-right: 0
+}
+
+#cale .panel > .table-bordered > tbody > tr:first-child > td, .panel > .table-bordered > tbody > tr:first-child > th, .panel > .table-bordered > thead > tr:first-child > td, .panel > .table-bordered > thead > tr:first-child > th, .panel > .table-responsive > .table-bordered > tbody > tr:first-child > td, .panel > .table-responsive > .table-bordered > tbody > tr:first-child > th, .panel > .table-responsive > .table-bordered > thead > tr:first-child > td, .panel > .table-responsive > .table-bordered > thead > tr:first-child > th {
+    border-bottom: 0
+}
+
+#cale .panel > .table-bordered > tbody > tr:last-child > td, .panel > .table-bordered > tbody > tr:last-child > th, .panel > .table-bordered > tfoot > tr:last-child > td, .panel > .table-bordered > tfoot > tr:last-child > th, .panel > .table-responsive > .table-bordered > tbody > tr:last-child > td, .panel > .table-responsive > .table-bordered > tbody > tr:last-child > th, .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > td, .panel > .table-responsive > .table-bordered > tfoot > tr:last-child > th {
+    border-bottom: 0
+}
+
+#cale .panel > .table-responsive {
+    margin-bottom: 0;
+    border: 0
+}
+
+#cale .panel-group {
+    margin-bottom: 20px
+}
+
+#cale .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px
+}
+
+#cale .panel-group .panel + .panel {
+    margin-top: 5px
+}
+
+#cale .panel-group .panel-heading {
+    border-bottom: 0
+}
+
+#cale .panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 1px solid #ddd
+}
+
+#cale .panel-group .panel-footer {
+    border-top: 0
+}
+
+#cale .panel-group .panel-footer + .panel-collapse .panel-body {
+    border-bottom: 1px solid #ddd
+}
+
+#cale .panel-default {
+    border-color: #ddd
+}
+
+#cale .panel-default > .panel-heading {
+
+    background-color: #f5f5f5;
+    border-color: #ddd
+}
+
+#cale .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd
+}
+
+#cale .panel-default > .panel-heading .badge {
+    color: #f5f5f5;
+    background-
+}
+
+#cale .panel-default > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #ddd
+}
+
+#cale .panel-primary {
+    border-color: #337ab7
+}
+
+#cale .panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7
+}
+
+#cale .panel-primary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #337ab7
+}
+
+#cale .panel-primary > .panel-heading .badge {
+    color: #337ab7;
+    background-color: #fff
+}
+
+#cale .panel-primary > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #337ab7
+}
+
+#cale .panel-success {
+    border-color: #d6e9c6
+}
+
+#cale .panel-success > .panel-heading {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6
+}
+
+#cale .panel-success > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #d6e9c6
+}
+
+#cale .panel-success > .panel-heading .badge {
+    color: #dff0d8;
+    background-color: #3c763d
+}
+
+#cale .panel-success > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #d6e9c6
+}
+
+#cale .panel-info {
+    border-color: #bce8f1
+}
+
+#cale .panel-info > .panel-heading {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1
+}
+
+#cale .panel-info > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #bce8f1
+}
+
+#cale .panel-info > .panel-heading .badge {
+    color: #d9edf7;
+    background-color: #31708f
+}
+
+#cale .panel-info > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #bce8f1
+}
+
+#cale .panel-warning {
+    border-color: #faebcc
+}
+
+#cale .panel-warning > .panel-heading {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc
+}
+
+#cale .panel-warning > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #faebcc
+}
+
+#cale .panel-warning > .panel-heading .badge {
+    color: #fcf8e3;
+    background-color: #8a6d3b
+}
+
+#cale .panel-warning > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #faebcc
+}
+
+#cale .panel-danger {
+    border-color: #ebccd1
+}
+
+#cale .panel-danger > .panel-heading {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1
+}
+
+#cale .panel-danger > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ebccd1
+}
+
+#cale .panel-danger > .panel-heading .badge {
+    color: #f2dede;
+    background-color: #a94442
+}
+
+#cale .panel-danger > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #ebccd1
+}
+
+#cale .embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden
+}
+
+#cale .embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0
+}
+
+#cale .embed-responsive.embed-responsive-16by9 {
+    padding-bottom: 56.25%
+}
+
+#cale .embed-responsive.embed-responsive-4by3 {
+    padding-bottom: 75%
+}
+
+#cale .well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05)
+}
+
+#cale .well blockquote {
+    border-color: #ddd;
+    border-color: rgba(0, 0, 0, .15)
+}
+
+#cale .well-lg {
+    padding: 24px;
+    border-radius: 6px
+}
+
+#cale .well-sm {
+    padding: 9px;
+    border-radius: 3px
+}
+
+#cale .close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2
+}
+
+#cale .close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+
+#cale .modal-open {
+    overflow: hidden
+}
+
+#cale .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0
+}
+
+#cale .modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    -o-transform: translate(0, -25%);
+    transform: translate(0, -25%)
+}
+
+#cale .modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+#cale .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+#cale .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px
+}
+
+#cale .modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5)
+}
+
+#cale .modal-backdrop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #000
+}
+
+#cale .modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+#cale .modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+#cale .modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+#cale .modal-header .close {
+    margin-top: -2px
+}
+
+#cale .modal-title {
+    margin: 0;
+    line-height: 1.42857143
+}
+
+#cale .modal-body {
+    position: relative;
+    padding: 15px
+}
+
+#cale .modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5
+}
+
+#cale .modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px
+}
+
+#cale .modal-footer .btn-group .btn + .btn {
+    margin-left: -1px
+}
+
+#cale .modal-footer .btn-block + .btn-block {
+    margin-left: 0
+}
+
+#cale .modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll
+}
+
+#cale @media (min-width: 768px) {
+#cale     .modal-dialog {
+        width: 600px;
+        margin: 30px auto
+    }
+
+#cale     .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+    }
+
+#cale     .modal-sm {
+        width: 300px
+    }
+}
+
+#cale @media (min-width: 992px) {
+#cale     .modal-lg {
+        width: 900px
+    }
+}
+
+#cale .tooltip {
+    position: absolute;
+    z-index: 1070;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    visibility: visible;
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+#cale .tooltip.in {
+    filter: alpha(opacity=90);
+    opacity: .9
+}
+
+#cale .tooltip.top {
+    padding: 5px 0;
+    margin-top: -3px
+}
+
+#cale .tooltip.right {
+    padding: 0 5px;
+    margin-left: 3px
+}
+
+#cale .tooltip.bottom {
+    padding: 5px 0;
+    margin-top: 3px
+}
+
+#cale .tooltip.left {
+    padding: 0 5px;
+    margin-left: -3px
+}
+
+#cale .tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 4px
+}
+
+#cale .tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid
+}
+
+#cale .tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000
+}
+
+#cale .tooltip.top-left .tooltip-arrow {
+    right: 5px;
+    bottom: 0;
+    margin-bottom: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000
+}
+
+#cale .tooltip.top-right .tooltip-arrow {
+    bottom: 0;
+    left: 5px;
+    margin-bottom: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000
+}
+
+#cale .tooltip.right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: #000
+}
+
+#cale .tooltip.left .tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #000
+}
+
+#cale .tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000
+}
+
+#cale .tooltip.bottom-left .tooltip-arrow {
+    top: 0;
+    right: 5px;
+    margin-top: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000
+}
+
+#cale .tooltip.bottom-right .tooltip-arrow {
+    top: 0;
+    left: 5px;
+    margin-top: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000
+}
+
+#cale .popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    max-width: 276px;
+    padding: 1px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: left;
+    white-space: normal;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2)
+}
+
+#cale .popover.top {
+    margin-top: -10px
+}
+
+#cale .popover.right {
+    margin-left: 10px
+}
+
+#cale .popover.bottom {
+    margin-top: 10px
+}
+
+#cale .popover.left {
+    margin-left: -10px
+}
+
+#cale .popover-title {
+    padding: 8px 14px;
+    margin: 0;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 5px 5px 0 0
+}
+
+#cale .popover-content {
+    padding: 9px 14px
+}
+
+#cale .popover > .arrow, .popover > .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid
+}
+
+#cale .popover > .arrow {
+    border-width: 11px
+}
+
+#cale .popover > .arrow:after {
+
+    border-width: 10px
+}
+
+#cale .popover.top > .arrow {
+    bottom: -11px;
+    left: 50%;
+    margin-left: -11px;
+    border-top-color: #999;
+    border-top-color: rgba(0, 0, 0, .25);
+    border-bottom-width: 0
+}
+
+#cale .popover.top > .arrow:after {
+    bottom: 1px;
+    margin-left: -10px;
+
+    border-top-color: #fff;
+    border-bottom-width: 0
+}
+
+#cale .popover.right > .arrow {
+    top: 50%;
+    left: -11px;
+    margin-top: -11px;
+    border-right-color: #999;
+    border-right-color: rgba(0, 0, 0, .25);
+    border-left-width: 0
+}
+
+#cale .popover.right > .arrow:after {
+    bottom: -10px;
+    left: 1px;
+
+    border-right-color: #fff;
+    border-left-width: 0
+}
+
+#cale .popover.bottom > .arrow {
+    top: -11px;
+    left: 50%;
+    margin-left: -11px;
+    border-top-width: 0;
+    border-bottom-color: #999;
+    border-bottom-color: rgba(0, 0, 0, .25)
+}
+
+#cale .popover.bottom > .arrow:after {
+    top: 1px;
+    margin-left: -10px;
+
+    border-top-width: 0;
+    border-bottom-color: #fff
+}
+
+#cale .popover.left > .arrow {
+    top: 50%;
+    right: -11px;
+    margin-top: -11px;
+    border-right-width: 0;
+    border-left-color: #999;
+    border-left-color: rgba(0, 0, 0, .25)
+}
+
+#cale .popover.left > .arrow:after {
+    right: 1px;
+    bottom: -10px;
+
+    border-right-width: 0;
+    border-left-color: #fff
+}
+
+#cale .carousel {
+    position: relative
+}
+
+#cale .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+
+#cale .carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: .6s ease-in-out left;
+    -o-transition: .6s ease-in-out left;
+    transition: .6s ease-in-out left
+}
+
+#cale .carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    line-height: 1
+}
+
+#cale @media all and (transform-3d),(-webkit-transform-3d) {
+#cale     .carousel-inner > .item {
+        -webkit-transition: -webkit-transform .6s ease-in-out;
+        -o-transition: -o-transform .6s ease-in-out;
+        transition: transform .6s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        perspective: 1000
+    }
+
+#cale     .carousel-inner > .item.active.right, .carousel-inner > .item.next {
+        left: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+#cale     .carousel-inner > .item.active.left, .carousel-inner > .item.prev {
+        left: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+#cale     .carousel-inner > .item.active, .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right {
+        left: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+#cale .carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev {
+    display: block
+}
+
+#cale .carousel-inner > .active {
+    left: 0
+}
+
+#cale .carousel-inner > .next, .carousel-inner > .prev {
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+#cale .carousel-inner > .next {
+    left: 100%
+}
+
+#cale .carousel-inner > .prev {
+    left: -100%
+}
+
+#cale .carousel-inner > .next.left, .carousel-inner > .prev.right {
+    left: 0
+}
+
+#cale .carousel-inner > .active.left {
+    left: -100%
+}
+
+#cale .carousel-inner > .active.right {
+    left: 100%
+}
+
+#cale .carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+#cale .carousel-control.left {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x
+}
+
+#cale .carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x
+}
+
+#cale .carousel-control:focus, .carousel-control:hover {
+    color: #fff;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: .9
+}
+
+#cale .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block
+}
+
+#cale .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 50%;
+    margin-left: -10px
+}
+
+#cale .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 50%;
+    margin-right: -10px
+}
+
+#cale .carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    font-family: serif;
+    line-height: 1
+}
+
+#cale .carousel-control .icon-prev:before {
+    content: '\2039'
+}
+
+#cale .carousel-control .icon-next:before {
+    content: '\203a'
+}
+
+#cale .carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none
+}
+
+#cale .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+
+#cale .carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #fff
+}
+
+#cale .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6)
+}
+
+#cale .carousel-caption .btn {
+    text-shadow: none
+}
+
+#cale @media screen and (min-width: 768px) {
+#cale     .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        font-size: 30px
+    }
+
+#cale     .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+        margin-left: -15px
+    }
+
+#cale     .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+        margin-right: -15px
+    }
+
+#cale     .carousel-caption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 30px
+    }
+
+#cale     .carousel-indicators {
+        bottom: 20px
+    }
+}
+
+#cale .btn-group-vertical > .btn-group:after, .btn-group-vertical > .btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+
+}
+
+#cale .btn-group-vertical > .btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+    clear: both
+}
+
+#cale .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
+
+#cale .pull-right {
+    float: right !important
+}
+
+#cale .pull-left {
+    float: left !important
+}
+
+#cale .hide {
+    display: none !important
+}
+
+#cale .show {
+    display: block !important
+}
+
+#cale .invisible {
+    visibility: hidden
+}
+
+#cale .text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0
+}
+
+#cale .hidden {
+    display: none !important;
+    visibility: hidden !important
+}
+
+#cale .affix {
+    position: fixed
+}
+
+#cale @-ms-viewport {
+    width: device-width
+}
+
+#cale .visible-lg, .visible-md, .visible-sm, .visible-xs {
+    display: none !important
+}
+
+#cale .visible-lg-block, .visible-lg-inline, .visible-lg-inline-block, .visible-md-block, .visible-md-inline, .visible-md-inline-block, .visible-sm-block, .visible-sm-inline, .visible-sm-inline-block, .visible-xs-block, .visible-xs-inline, .visible-xs-inline-block {
+    display: none !important
+}
+
+#cale @media (max-width: 767px) {
+#cale     .visible-xs {
+        display: block !important
+    }
+
+#cale     table.visible-xs {
+        display: table
+    }
+
+#cale     tr.visible-xs {
+        display: table-row !important
+    }
+
+#cale     td.visible-xs, th.visible-xs {
+        display: table-cell !important
+    }
+}
+
+#cale @media (max-width: 767px) {
+#cale     .visible-xs-block {
+        display: block !important
+    }
+}
+
+#cale @media (max-width: 767px) {
+#cale     .visible-xs-inline {
+        display: inline !important
+    }
+}
+
+#cale @media (max-width: 767px) {
+#cale     .visible-xs-inline-block {
+        display: inline-block !important
+    }
+}
+
+#cale @media (min-width: 768px) and (max-width: 991px) {
+#cale     .visible-sm {
+        display: block !important
+    }
+
+#cale     table.visible-sm {
+        display: table
+    }
+
+#cale     tr.visible-sm {
+        display: table-row !important
+    }
+
+#cale     td.visible-sm, th.visible-sm {
+        display: table-cell !important
+    }
+}
+
+#cale @media (min-width: 768px) and (max-width: 991px) {
+#cale     .visible-sm-block {
+        display: block !important
+    }
+}
+
+#cale @media (min-width: 768px) and (max-width: 991px) {
+#cale     .visible-sm-inline {
+        display: inline !important
+    }
+}
+
+#cale @media (min-width: 768px) and (max-width: 991px) {
+#cale     .visible-sm-inline-block {
+        display: inline-block !important
+    }
+}
+
+#cale @media (min-width: 992px) and (max-width: 1199px) {
+#cale     .visible-md {
+        display: block !important
+    }
+
+#cale     table.visible-md {
+        display: table
+    }
+
+#cale     tr.visible-md {
+        display: table-row !important
+    }
+
+#cale     td.visible-md, th.visible-md {
+        display: table-cell !important
+    }
+}
+
+#cale @media (min-width: 992px) and (max-width: 1199px) {
+#cale     .visible-md-block {
+        display: block !important
+    }
+}
+
+#cale @media (min-width: 992px) and (max-width: 1199px) {
+#cale     .visible-md-inline {
+        display: inline !important
+    }
+}
+
+#cale @media (min-width: 992px) and (max-width: 1199px) {
+#cale     .visible-md-inline-block {
+        display: inline-block !important
+    }
+}
+
+#cale @media (min-width: 1200px) {
+#cale     .visible-lg {
+        display: block !important
+    }
+
+#cale     table.visible-lg {
+        display: table
+    }
+
+#cale     tr.visible-lg {
+        display: table-row !important
+    }
+
+#cale     td.visible-lg, th.visible-lg {
+        display: table-cell !important
+    }
+}
+
+#cale @media (min-width: 1200px) {
+#cale     .visible-lg-block {
+        display: block !important
+    }
+}
+
+#cale @media (min-width: 1200px) {
+#cale     .visible-lg-inline {
+        display: inline !important
+    }
+}
+
+#cale @media (min-width: 1200px) {
+#cale     .visible-lg-inline-block {
+        display: inline-block !important
+    }
+}
+
+#cale @media (max-width: 767px) {
+#cale     .hidden-xs {
+        display: none !important
+    }
+}
+
+#cale @media (min-width: 768px) and (max-width: 991px) {
+#cale     .hidden-sm {
+        display: none !important
+    }
+}
+
+#cale @media (min-width: 992px) and (max-width: 1199px) {
+#cale     .hidden-md {
+        display: none !important
+    }
+}
+
+#cale @media (min-width: 1200px) {
+#cale     .hidden-lg {
+        display: none !important
+    }
+}
+
+#cale .visible-print {
+    display: none !important
+}
+
+#cale @media print {
+#cale     .visible-print {
+        display: block !important
+    }
+
+#cale     table.visible-print {
+        display: table
+    }
+
+#cale     tr.visible-print {
+        display: table-row !important
+    }
+
+#cale     td.visible-print, th.visible-print {
+        display: table-cell !important
+    }
+}
+
+#cale .visible-print-block {
+    display: none !important
+}
+
+#cale @media print {
+#cale     .visible-print-block {
+        display: block !important
+    }
+}
+
+#cale .visible-print-inline {
+    display: none !important
+}
+
+#cale @media print {
+#cale     .visible-print-inline {
+        display: inline !important
+    }
+}
+
+#cale .visible-print-inline-block {
+    display: none !important
+}
+
+#cale @media print {
+#cale     .visible-print-inline-block {
+        display: inline-block !important
+    }
+}
+
+#cale @media print {
+#cale     .hidden-print {
+        display: none !important
+    }
+}
+

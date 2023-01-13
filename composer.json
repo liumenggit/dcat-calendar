@@ -1,0 +1,32 @@
+{
+    "name": "liumenggit/calendar",
+    "alias": "日历事件插件",
+    "description": "日历事件插件",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/liumenggit/dcat-calendar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rrsyycm",
+            "email": "rrsyycm@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "liumenggit\\Calendar\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "liumenggit\\Calendar\\CalendarServiceProvider",
+        "laravel": {
+            "providers": [
+                "liumenggit\\Calendar\\CalendarServiceProvider"
+            ]
+        }
+    }
+}
